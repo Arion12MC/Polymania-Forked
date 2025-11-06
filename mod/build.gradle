@@ -6,7 +6,7 @@ plugins {
 	id 'maven-publish'
 }
 
-version = Files.readString(Paths.get("../version.txt"))
+version = Files.readString(file("../version.txt").toPath())
 group = project.maven_group
 
 base {
@@ -26,10 +26,10 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	modImplementation "eu.pb4:placeholder-api:2.7.1+1.21.6"
-	modImplementation "eu.pb4:polymer-core:0.13.9+1.21.8"
-	modImplementation "eu.pb4:polymer-resource-pack:0.13.9+1.21.8"
-	modImplementation "eu.pb4:polymer-autohost:0.13.9+1.21.8"
+	modImplementation "eu.pb4:placeholder-api:2.8.1+1.21.10"
+	modImplementation "eu.pb4:polymer-core:0.14.3+1.21.10"
+	modImplementation "eu.pb4:polymer-resource-pack:0.14.3+1.21.10"
+	modImplementation "eu.pb4:polymer-autohost:0.14.3+1.21.10"
 
 }
 

@@ -1,0 +1,13 @@
+name = "Polymer Patch Bundle"
+filename = "polymer-patch-bundle-1.1.2+1.21.10.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/WhjutnwJ/versions/MTeOAZyw/polymer-patch-bundle-1.1.2%2B1.21.10.jar"
+hash-format = "sha1"
+hash = "63c53f87b2b5898d7d58b7037588416d8ca455fd"
+
+[update]
+[update.modrinth]
+mod-id = "WhjutnwJ"
+version = "MTeOAZyw"

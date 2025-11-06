@@ -1,7 +1,13 @@
-name = "blockus"
-filename = "blockus-polymania-2.12.0+1.21.5.jar"
+name = "Blockus"
+filename = "blockus-2.14.1+1.21.10.jar"
+side = "both"
 
 [download]
-url = "https://github.com/PolymaniaForks/Blockus/releases/download/2.12.0.1%2B1.21.5/blockus-polymania-2.12.0+1.21.5.jar"
-hash-format = "sha256"
-hash = "fad6ab8f6db83a0c90cacc58d115f2924e41bff280ea23bea1773c810e673944"
+url = "https://cdn.modrinth.com/data/zFiY2Go0/versions/LuDiztuA/blockus-2.14.1%2B1.21.10.jar"
+hash-format = "sha1"
+hash = "2a54b9d32882a762aee115a5b9bb6b4b6d0cf334"
+
+[update]
+[update.modrinth]
+mod-id = "zFiY2Go0"
+version = "LuDiztuA"

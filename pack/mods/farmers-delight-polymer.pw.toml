@@ -1,13 +1,13 @@
 name = "Polymer Patch for Farmer's Delight"
-filename = "farmers-delight-polymer-patch-3.3.0.0+1.21.8.jar"
+filename = "farmers-delight-polymer-patch-3.3.1.0+1.21.10.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/TE3NCFiY/versions/I3Zb1ukB/farmers-delight-polymer-patch-3.3.0.0%2B1.21.8.jar"
-hash-format = "sha512"
-hash = "22096a278eb022bebe9085928515c6c0b598be400a70cdf5cb94278f7f3ef41161e31af154ca6e3bdce0873860e8b1467c79f457df616b5fc0087062d5eaeb04"
+url = "https://cdn.modrinth.com/data/TE3NCFiY/versions/voaSYuh1/farmers-delight-polymer-patch-3.3.1.0%2B1.21.10.jar"
+hash-format = "sha1"
+hash = "8c56bd2537120c5821d5f5b8c5a8a53369be670d"
 
 [update]
 [update.modrinth]
 mod-id = "TE3NCFiY"
-version = "I3Zb1ukB"
+version = "voaSYuh1"

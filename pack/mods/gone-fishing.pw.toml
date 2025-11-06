@@ -1,13 +1,13 @@
 name = "Gone Fishing!"
-filename = "go-fish-1.8.0+1.21.6.jar"
+filename = "go-fish-1.9.0+1.21.9-rc1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/EAw8Gldo/versions/lL891vPN/go-fish-1.8.0%2B1.21.6.jar"
-hash-format = "sha512"
-hash = "ed9026f1eda55e7f649f9b33bf4fea2a46254d5f43f6852b958d5842439d6a821cd9daf73d62e61de2d01e010d4f4f16853561d59726d66fa3cb328ac1f79179"
+url = "https://cdn.modrinth.com/data/EAw8Gldo/versions/svuSlVwf/go-fish-1.9.0%2B1.21.9-rc1.jar"
+hash-format = "sha1"
+hash = "5318a2ebdaa079708863d8300df0fdb1d2babf2a"
 
 [update]
 [update.modrinth]
 mod-id = "EAw8Gldo"
-version = "lL891vPN"
+version = "svuSlVwf"

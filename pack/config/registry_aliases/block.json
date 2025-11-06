@@ -1,8 +1,4 @@
 {
-	"blockus:white_oak_mosaic": "blockus:pale_oak_mosaic",
-	"blockus:mossy_white_oak_planks": "blockus:mossy_pale_oak_planks",
-	"blockus:herringbone_white_oak_planks": "blockus:herringbone_pale_oak_planks",
-
 	"borukva-food:tomato_crop": "farmersdelight:tomatoes",
 	"borukva-food:cabbage_crop": "farmersdelight:cabbages",
 	"borukva-food:corn_crop": "potatoes",

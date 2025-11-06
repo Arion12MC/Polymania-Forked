@@ -1,13 +1,13 @@
 name = "Ouch!"
-filename = "ouch-1.5.0+1.21.6.jar"
+filename = "ouch-1.6.0+1.21.9-rc1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/nbxqFJCy/versions/jQpc4lgy/ouch-1.5.0%2B1.21.6.jar"
-hash-format = "sha512"
-hash = "a88c96d0de92d9da0bb9e82febfcc520b759f54591d1bf4631e338eeb3bc34d655a53d68c2a1b82e179f8810c9fca2408f1f221e5eb3f613c360164979c0de0d"
+url = "https://cdn.modrinth.com/data/nbxqFJCy/versions/GVsqCGGi/ouch-1.6.0%2B1.21.9-rc1.jar"
+hash-format = "sha1"
+hash = "2861ffab7c768fdb8ea5ecbd20a247a0ffe3b922"
 
 [update]
 [update.modrinth]
 mod-id = "nbxqFJCy"
-version = "jQpc4lgy"
+version = "GVsqCGGi"

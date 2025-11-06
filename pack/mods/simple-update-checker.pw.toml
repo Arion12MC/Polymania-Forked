@@ -1,13 +1,13 @@
 name = "Simple Update Checker"
-filename = "simpleupdatechecker-1.2.0+1.21.6.jar"
+filename = "simpleupdatechecker-1.3.0+1.21.9-rc1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/s5pYJlew/versions/anbrO6mZ/simpleupdatechecker-1.2.0%2B1.21.6.jar"
-hash-format = "sha512"
-hash = "61f07badd083bb4518de6222f704f130c61f69eb754fc07a3e0f03a9ac629ad6cc46812330114d93338de786311a6f369411cb28a7b16d64c8cba2822104797f"
+url = "https://cdn.modrinth.com/data/s5pYJlew/versions/gGdQiYFh/simpleupdatechecker-1.3.0%2B1.21.9-rc1.jar"
+hash-format = "sha1"
+hash = "ab49ee273401326ba5b053fce1795fa119d3d488"
 
 [update]
 [update.modrinth]
 mod-id = "s5pYJlew"
-version = "anbrO6mZ"
+version = "gGdQiYFh"

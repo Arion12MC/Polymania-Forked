@@ -10,8 +10,8 @@ It's ideal for server you want to play on with your friends, as the only thing n
 
 This modpack is contains:
 - A full on factory/automation with machinery powered by rotation and logic cables, provided by [PolyFactory](https://modrinth.com/mod/polyfactory) mod!
-- Many new decorative and building blocks blocks for builders from furniture to new bricks and stones! Provided by [PolyDecorations](https://modrinth.com/mod/polydecorations), [(modified) Blockus](https://modrinth.com/mod/blockus) and others.
-- New biomes and structures, thanks to mods and datapacks such as [Cliff under a Tree](https://modrinth.com/datapack/clifftree), [(modified) Traverse](https://modrinth.com/mod/traverse), [(modified) Cinderscape](https://modrinth.com/mod/cinderscape), [Enderscape](https://modrinth.com/mod/enderscape) and more.
+- Many new decorative and building blocks blocks for builders from furniture to new bricks and stones! Provided by [PolyDecorations](https://modrinth.com/mod/polydecorations), [Blockus](https://modrinth.com/mod/blockus) and others.
+- New biomes and structures, thanks to mods and datapacks such as [Cliff under a Tree](https://modrinth.com/datapack/clifftree), [Traverse](https://modrinth.com/mod/traverse), [ Cinderscape](https://modrinth.com/mod/cinderscape), [Enderscape](https://modrinth.com/mod/enderscape) and more.
 - New mobs, friendly and aggresive, by [Tom's Mobs](https://modrinth.com/mod/toms-mobs), [Illager Expansion Recrafted](https://modrinth.com/mod/illager-expansion-polymer) and others.
 - Programmable computers from [ComputerCraft](https://modrinth.com/mod/cc-tweaked), modified to work server side.
 - New plants and food types, provided by [Farmer's Delight](https://modrinth.com/mod/farmers-delight-refabricated) and others.
@@ -51,15 +51,15 @@ Heavily depends on versions you use. Generally it might work in some cases, wher
 ![](https://cdn.modrinth.com/data/gDvfyRyQ/images/6cb0af3de306e758ef233f1d13fbea40181c06c5.png)
 
 ## Modified mods, included assets and licenses.
-Polymania uses forks of mods, which source code/changes you can see check at [PolymaniaForks github page](https://github.com/PolymaniaForks).
+Polymania uses forks of mods, which source code/changes you can see check at [PolymaniaForks github page](https://github.com/PolymaniaForks). Their usage might change as the pack updates.
 
 Additionally it includes:
 - It includes port of [Dark Paintings](https://modrinth.com/mod/dark-paintings) as a datapack/resourcepack combo, which you can find under `config/openloader/data/DarkPaintings.zip`.
-- Fork/Development version of [PolyMc by TheEpicBlock](https://github.com/TheEpicBlock/PolyMc) and [PolyConfig by TheEpicBlock](https://github.com/TheEpicBlock/PolyConfig), a translation layer without which this modpack would never exist, which source you can find on GitHub: [PolyMc](https://github.com/Patbox/polymc), [PolyConfig](https://github.com/TheEpicBlock/PolyConfig/pull/6). You can find them in `mods/PolyMc-(ver).jar` and `mods/polyconfig-(ver).jar`.
 - Modified version of Moss Carpet Overhang resource pack form [Vanilla Tweaks](https://vanillatweaks.net/), making it cull more when placed on sides of other carpets/blocks. You can find it in `polymer/override_assets/assets/minecraft/(block|item)/moss_carpet.json` and `polymer/override_assets/assets/minecraft/textures/block/moss_carpet_overlay.png`
 - [Unsanded by unascribed](https://modrinth.com/resourcepack/unsanded), modified to exist as it's own font instead of overriding vanilla. You can find it in `polymer/extra/Unsanded-1.1.1-custom.zip`.
 - [Lato Regular Font](https://www.latofonts.com/lato-free-fonts/) as an extra usable font. You can find it in `polymer/override_assets/assets/polymania/font/lato`.
 - [Tweemoji](https://github.com/jdecked/twemoji) as emoji's used with Styled Chat. You can find it in `polymer/override_assets/assets/polymania/textures/emoji`.
+- (0.4.4 and older) Fork/Development version of [PolyMc by TheEpicBlock](https://github.com/TheEpicBlock/PolyMc) and [PolyConfig by TheEpicBlock](https://github.com/TheEpicBlock/PolyConfig), a translation layer without which this modpack would never exist, which source you can find on GitHub: [PolyMc](https://github.com/Patbox/polymc), [PolyConfig](https://github.com/TheEpicBlock/PolyConfig/pull/6). You can find them in `mods/PolyMc-(ver).jar` and `mods/polyconfig-(ver).jar`.
 
 You can see the license of these files on provided websites.
 

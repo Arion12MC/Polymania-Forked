@@ -1,7 +1,13 @@
-name = "cinderscapes"
-filename = "cinderscapes-v5.2.0-beta.1.0+1.21.5+1.20.3.b6c01ca.jar"
+name = "Cinderscapes"
+filename = "cinderscapes-5.5.0-beta.1.jar"
+side = "both"
 
 [download]
-url = "https://github.com/PolymaniaForks/Cinderscapes/releases/download/v5.2.0-beta.1.0%2B1.21.6/cinderscapes-v5.2.0-beta.1.0+1.21.5+1.20.3.b6c01ca.jar"
-hash-format = "sha256"
-hash = "807fa3e7cad14686472a7ac1211c205fb5e094fbe5d56c6c143a87f0833a6a5c"
+url = "https://cdn.modrinth.com/data/QC4wcUXZ/versions/6yjmgz2v/cinderscapes-5.5.0-beta.1.jar"
+hash-format = "sha1"
+hash = "c2e508737364d609cd387950546a5c53b3bfc046"
+
+[update]
+[update.modrinth]
+mod-id = "QC4wcUXZ"
+version = "6yjmgz2v"

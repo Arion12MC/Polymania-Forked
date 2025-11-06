@@ -1,7 +1,13 @@
-name = "terrestria"
-filename = "terrestria-v7.4.0+another_1.20.32d44285.jar"
+name = "Terrestria"
+filename = "terrestria-7.5.0-beta.1.jar"
+side = "both"
 
 [download]
-url = "https://github.com/PolymaniaForks/Terrestria/releases/download/v7.4.0%2B1.21.6/terrestria-v7.4.0+another_1.20.32d44285.jar"
-hash-format = "sha256"
-hash = "55f2a97569317c4bca7c90bc3b74151f57c8f6568da3018ec0c21849add54e08"
+url = "https://cdn.modrinth.com/data/lsUDPMOT/versions/IGxP6GHT/terrestria-7.5.0-beta.1.jar"
+hash-format = "sha1"
+hash = "795fb51dc2dfaee2b34447e6135c6c31322802b2"
+
+[update]
+[update.modrinth]
+mod-id = "lsUDPMOT"
+version = "IGxP6GHT"
