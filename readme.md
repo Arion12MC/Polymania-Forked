@@ -6,19 +6,18 @@
 
 # Welcome to Polymania!
 Polymania is a kitchen-sinky, Fabric Server-Side modpack, which main goal is to provide the classic modded experience, while being easy to install and use.
-It's ideal for server you want to play on with your friends, as the only thing needed is a place to host it and vanilla Minecraft client!
+It's ideal for a server you want to play on with your friends, as the only thing needed is a place to host it and vanilla Minecraft client!
 
 This modpack is contains:
 - A full on factory/automation with machinery powered by rotation and logic cables, provided by [PolyFactory](https://modrinth.com/mod/polyfactory) mod!
 - Many new decorative and building blocks blocks for builders from furniture to new bricks and stones! Provided by [PolyDecorations](https://modrinth.com/mod/polydecorations), [Blockus](https://modrinth.com/mod/blockus) and others.
-- New biomes and structures, thanks to mods and datapacks such as [Cliff under a Tree](https://modrinth.com/datapack/clifftree), [Traverse](https://modrinth.com/mod/traverse), [ Cinderscape](https://modrinth.com/mod/cinderscape), [Enderscape](https://modrinth.com/mod/enderscape) and more.
+- New biomes and structures, thanks to mods and datapacks such as [Cliff under a Tree](https://modrinth.com/datapack/clifftree), [Traverse](https://modrinth.com/mod/traverse), [Cinderscape](https://modrinth.com/mod/cinderscape), [Enderscape](https://modrinth.com/mod/enderscape) and more.
 - New mobs, friendly and aggresive, by [Tom's Mobs](https://modrinth.com/mod/toms-mobs), [Illager Expansion Recrafted](https://modrinth.com/mod/illager-expansion-polymer) and others.
 - Programmable computers from [ComputerCraft](https://modrinth.com/mod/cc-tweaked), modified to work server side.
 - New plants and food types, provided by [Farmer's Delight](https://modrinth.com/mod/farmers-delight-refabricated) and others.
-
 - And more!
 
-![](https://cdn.modrinth.com/data/gDvfyRyQ/images/ab761c937dbc68f334549d61b9cae809266b90b8.png)
+![](https://cdn.modrinth.com/data/gDvfyRyQ/images/0924a0067547ff087080b95ce24cdd2c792616b2.png)
 
 ## Installation.
 Modpack is available on [Modrinth](https://modrinth.com/project/polymania), but can be easily installed on any hosting service that supports custom jars.
@@ -64,4 +63,5 @@ Additionally it includes:
 You can see the license of these files on provided websites.
 
 Polymania Extras mod (under `/mod/` in repo) is provided under [LGPLv3](https://github.com/Patbox/polymania/blob/master/mod/LICENSE)
+Included jar files might have their own licenses, either included directly in the jar or provided as a field in fabric.mod.json file.
 Other files included in modpack are provided under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).

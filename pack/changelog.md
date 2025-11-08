@@ -3,13 +3,14 @@
 - Updated all of the mods.
 - Switched Terrestria, Cinderscapes, Blockus from Polymania Fork to official release.
   - This means all blocks that were originally removed are accessible now!
-  - Handled via Polymer Patch Bundle by Drex: https://modrinth.com/mod/polymer-patch-bundle
-- Switched Woods and Mires to KiloCraft fork: https://github.com/KiloCraft/WoodsAndMires
+  - Handled via Polymer Patch Bundle by DrexHD: https://modrinth.com/mod/polymer-patch-bundle
+- Switched Woods and Mires from Polymania Fork to KiloCraft fork: https://github.com/KiloCraft/WoodsAndMires
   - This means all blocks that were originally removed are accessible now!
-  - Handled via Polymer Patch Bundle by Drex: https://modrinth.com/mod/polymer-patch-bundle
+  - Handled via Polymer Patch Bundle by DrexHD: https://modrinth.com/mod/polymer-patch-bundle
 - Updated FarmTweaks config to make it compatible with Farmer's Delight.
 - Removed ViaVersion and ViaFabric (no longer needed).
 - Removed PolyMc and PolyConfig (no longer needed, all mods are handled via Polymer Patches now).
+- Temporatily use dev build of CC: Tweaked.
 
 # 0.4.4:
 - Added ViaVersion and ViaFabric:

@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "76942669e45f0eeed05a905e0a789ca2221cabc99190e2453ed886f351cded22"
+hash = "1f270f7b73465fdf7c0813a982f5d13f845878c744427193a1cf85707797c44e"
 
 [[files]]
 file = "config/cinderscapes.json"
@@ -23,6 +23,10 @@ hash = "ce2fc4b04da41c3dfea9216152c089638796e93f3656203b99c0719f9259937d"
 [[files]]
 file = "config/farmersdelight-common.json"
 hash = "c8b79e5f70fe40ac5759f80ee53af43cd2080a664bdce9eeb638b620e397c58e"
+
+[[files]]
+file = "config/farmtweaks.json"
+hash = "092f8c29303ff57976912813c7816088379b22c97065b579bf7a2da59a08e1bb"
 
 [[files]]
 file = "config/friendsandfoes.json"
@@ -139,7 +143,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "a6a49703c0e3bcc643da53ef280642a9b54f24c7cb9b143a86089f5b51e318a4"
+hash = "8384486e6495383cf633940a1e0249d163ab1f309fa58e60605d2aecc04b7fc5"
 metafile = true
 
 [[files]]
@@ -191,7 +195,7 @@ metafile = true
 
 [[files]]
 file = "mods/cinderscapes.pw.toml"
-hash = "35120541f9a35282af95ed84a7bf4dab55d55f74b48d2cab47cd576fcbd70338"
+hash = "d53961863c42f9d242571bfb863cf3c609d70ffb60eeb2c6845dca67875fc608"
 metafile = true
 
 [[files]]
@@ -265,7 +269,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight-refabricated.pw.toml"
-hash = "36fdf59ad980fb245fb157e0b71d5e800fb0dff3d6e6698f83cc9f194c641279"
+hash = "9c355e449284b00c87453f892d1a3068fc1655940aec93eb9e46ec6ed4af0a0d"
 metafile = true
 
 [[files]]
@@ -399,12 +403,12 @@ hash = "7801183ea8f9c884ed9de4e97512b63af291547363cc7ff4673bfb13cef40c8f"
 metafile = true
 
 [[files]]
-file = "mods/polymania-extras-0.4.4.jar"
-hash = "37c09a8e711efac25cc3ef3932faed81479624b397bc0a50a0bd1b0311ab7411"
+file = "mods/polymania-extras-0.5.0-beta.1.jar"
+hash = "f84cffbab0c83297b32647bd98945231b625c6c797166d3afb92931cdd4628d3"
 
 [[files]]
 file = "mods/polymer-patch-bundle.pw.toml"
-hash = "f7ac5fbd11c3cf4ed408d78488c41fd326237cbcdfd447219751408016c169d0"
+hash = "0b801ea54802779552dd80aa00a46dd1919d7e3c1f7af1761250291ffb60de03"
 metafile = true
 
 [[files]]
@@ -493,7 +497,7 @@ metafile = true
 
 [[files]]
 file = "mods/terrestria.pw.toml"
-hash = "d0a455cdd4cc90fa3ac9691a2ed36d37ea8e86522aadeb014b5fb7b9c3c050f4"
+hash = "26f112d6ef7fa90d87895feb647ba2823689b527f3baf3e44c604fbf736e9d20"
 metafile = true
 
 [[files]]
