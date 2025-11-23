@@ -3,11 +3,11 @@ filename = "ExtendedDrawers-4.3.0-beta.2+mc.1.21.10.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/AhtxbnpG/versions/e6dMXpVF/ExtendedDrawers-4.3.0-beta.2%2Bmc.1.21.10.jar"
-hash-format = "sha1"
-hash = "37f8a18fe28d3438c2d6527ad8997a190552efcc"
+url = "https://cdn.modrinth.com/data/AhtxbnpG/versions/GSwllSSb/ExtendedDrawers-4.3.0-beta.2%2Bmc.1.21.10.jar"
+hash-format = "sha512"
+hash = "4b5d3c61f672c2e4cf9952b57568053fc5fbf810600a387adef4fa94205e1d08ec2e085ffcf6f2381ec2b2a095c5d8488aa912811db18e64732d3ee7b64052fe"
 
 [update]
 [update.modrinth]
 mod-id = "AhtxbnpG"
-version = "e6dMXpVF"
+version = "GSwllSSb"

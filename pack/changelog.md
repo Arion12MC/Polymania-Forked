@@ -1,3 +1,24 @@
+# 0.5.0:
+- Added Curiosities: https://modrinth.com/mod/pbcuriosities
+  - This mod adds bits and bops that I didn't think were worth into making separate mods.
+  - Adds (Teleporting) Elevators, Phasing Blocks, Angel Blocks and more, see it's mod page!
+- Added ButterBee: https://modrinth.com/datapack/butterbee
+  - It's an addon for CliffTree worldgen datapack, adding new mob variants.
+- Updated loading screen panorama image.
+- Update Dungeons and Taverns (v5.0.2 -> v5.0.4): https://modrinth.com/datapack/dungeons-and-taverns/changelog
+- Update Toms Mobs (2.4.3+1.21.9 -> 2.4.4+1.21.9)
+- Update Enderscape (1.1.2+mc1.21.10 -> 1.1.3+mc1.21.10)
+- Update MidnightLib (1.8.3-fabric+1.21.9 -> 1.9.1+1.21.10)
+- Update Extended Drawers (4.3.0-beta.2+mc.1.21.10 -> 4.3.0-beta.2+mc.1.21.10)
+- Update Leaves Us In Peace (1.10.1+MC1.21.9-1.21.10 -> 1.10.2+MC1.21.9-1.21.10)
+- Update Fabric API (0.138.0+1.21.10 -> 0.138.3+1.21.10)
+- Update Forge Config API Port (v21.10.0+mc1.21.10-Fabric -> v21.10.1+mc1.21.10-Fabric)
+- Update Lithium (0.20.0+mc1.21.10 -> 0.20.1+mc1.21.10)
+- Update Polymer Patch Bundle (1.1.2+1.21.10 -> 1.1.3+1.21.10)
+- Update Balm (1.21.10-21.10.7 -> 1.21.10-21.10.8)
+- Removed Televators:
+ - Televator block and item will be converted into Light Blue Elevator from Curiosities
+
 # 0.5.0-beta.1:
 - Updated to 1.21.10.
 - Updated all of the mods.

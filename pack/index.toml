@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "1f270f7b73465fdf7c0813a982f5d13f845878c744427193a1cf85707797c44e"
+hash = "e381fce5cb1a508177deff252baaadda17429f962f83b0fce94f9c9e07c6390c"
 
 [[files]]
 file = "config/cinderscapes.json"
@@ -54,7 +54,7 @@ hash = "4260e305f03f59f16d59ebd2fca78d255ad2e5aa0a63c8d61ff17b6104d2e7df"
 
 [[files]]
 file = "config/polymer/resource-pack.json"
-hash = "9098e8cf2d29adfa0912d055129d79446bfe68a50455efe1c1f98676a879f800"
+hash = "b06c8ed637bcf8f8476585ae59499eb186d42e2dd11bc956343936b5b881326b"
 
 [[files]]
 file = "config/polymer/server.json"
@@ -66,7 +66,7 @@ hash = "8e0710c2a3aca9fcb1d74a0ec79a52799ee1a0744181425cc540e7bb31e5c046"
 
 [[files]]
 file = "config/registry_aliases/block.json"
-hash = "4b9ed0523a6765bbdaa2e8183a13ee06fdd81d0dd4cc43545c9e71a58dc07284"
+hash = "b35d881058ec1a7a8d9245c8365c84e0aa413a35a870d64cd394f2b464bc0b70"
 
 [[files]]
 file = "config/registry_aliases/block_entity_type.json"
@@ -74,7 +74,7 @@ hash = "d06b9c1ff348a05871162bd7b793ad0ad2838ffc5c9a0f767b75e272f7fdc06d"
 
 [[files]]
 file = "config/registry_aliases/item.json"
-hash = "d415715d9dee9a26eee3eb2e72517af44c9a8fa723be4a796507dcf62ac37dc0"
+hash = "674f0a9074bf03269397481733c4d1de33af231b8a9e2b36f830ac049224f2fd"
 
 [[files]]
 file = "config/rocks.json"
@@ -143,7 +143,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "8384486e6495383cf633940a1e0249d163ab1f309fa58e60605d2aecc04b7fc5"
+hash = "f34fa12fe7701cf0776fef1a1f1e2e3c7227f53302b3d87b7ff307f0446a68d2"
 metafile = true
 
 [[files]]
@@ -181,6 +181,11 @@ hash = "dc3ee4447c9e04c9e1e210e5ccb57b777ab78967deff8db39998943f381ac3b1"
 metafile = true
 
 [[files]]
+file = "mods/butterbee.pw.toml"
+hash = "4b9b184246416109e9eef118a201e8763ef276488ff80e7558e94c36f7ea12de"
+metafile = true
+
+[[files]]
 file = "mods/cc-tweaked-1.21.10-fabric-1.116.2-52b127fcc7483674b320a41c5682e733589c7e14.jar"
 hash = "219d1903ed771e310d7e6f32b7a7cc339c58c0de831153617814c7b4722cd097"
 
@@ -215,7 +220,7 @@ metafile = true
 
 [[files]]
 file = "mods/dungeons-and-taverns.pw.toml"
-hash = "264931944eef542b38ecdda8be978fbd03bf13ad961a6bcf3f1a98e15d32d5ae"
+hash = "e9c66a831545c31e1bd5f898974222a7e04e548018dda0a4db0da7c6997c8017"
 metafile = true
 
 [[files]]
@@ -230,7 +235,7 @@ metafile = true
 
 [[files]]
 file = "mods/enderscape.pw.toml"
-hash = "a4d4157d82157ece4b7c68fbb76a7ccef7c9e21be7a0d25cc1b4b7b62d2f40a0"
+hash = "a993324b76929426c46da31be9e7e3c18dfe016f35712b831014dd707645fecb"
 metafile = true
 
 [[files]]
@@ -245,7 +250,7 @@ metafile = true
 
 [[files]]
 file = "mods/extended-drawers.pw.toml"
-hash = "313a5d189829e927f230b699b443fba9bcdf8720b6b15abe292cb92892d66d0a"
+hash = "028a58690c4cba725b3e576203ef0c0f78fb24501f1f5b04151af6f31f0db9c6"
 metafile = true
 
 [[files]]
@@ -254,7 +259,7 @@ hash = "d6d8d16a584c2656c0dd70fe288e6330369567badccd7a7cdbaa57210876a52e"
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "7e20712c4e42e5839f37ecd7796502bcc2a195f44696cffb064f8a1d15edd0b1"
+hash = "cbda4f1881cfb9f054395a3db225df4202d1f2e7bd0ed27d803b837fcf728621"
 metafile = true
 
 [[files]]
@@ -284,7 +289,7 @@ metafile = true
 
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
-hash = "228619884a7c401c5fcb3a606abb8c3c668eb9fdaac01eafa02ac3cbefe5ceb9"
+hash = "d74f72f3bf13c4ef7d60b6e2defecd3c7af77ed9be7764cf1ed10ea1fd707a1f"
 metafile = true
 
 [[files]]
@@ -324,12 +329,12 @@ metafile = true
 
 [[files]]
 file = "mods/leaves-us-in-peace.pw.toml"
-hash = "ba51bba39c4ca1d4d2e95b2bbe67928edbcd9381aca5aee76fe1c542e224d238"
+hash = "cb75c1755e63d6620f1db75a255869807e60961b322983d9a96a0908e724a12a"
 metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "5cad7f0ea3144019f6fb6dddfba5f7f78cdb1a6ce620151e581176acd197bcaf"
+hash = "84957275e9dc6f07f4244ce3303536e3d73b0e72eb1696ccd024168a52c29c98"
 metafile = true
 
 [[files]]
@@ -349,7 +354,7 @@ metafile = true
 
 [[files]]
 file = "mods/midnightlib.pw.toml"
-hash = "87c79663c4a786558423c6ead59ac23715d4bd63f113d2a269f4a359f11ff342"
+hash = "2b5ed111985f5984dd530c165da227acdefe74f0578b16da05525ef221306284"
 metafile = true
 
 [[files]]
@@ -370,6 +375,11 @@ metafile = true
 [[files]]
 file = "mods/ouch.pw.toml"
 hash = "674d375fdfee60d4cef7197637b4aa4a7a2206de231282b54819383bae696efe"
+metafile = true
+
+[[files]]
+file = "mods/pbcuriosities.pw.toml"
+hash = "f0128f0519d499afc6174fc1c3fdbb4fc316b7aedf3516993605ddfb41aa7185"
 metafile = true
 
 [[files]]
@@ -403,12 +413,12 @@ hash = "7801183ea8f9c884ed9de4e97512b63af291547363cc7ff4673bfb13cef40c8f"
 metafile = true
 
 [[files]]
-file = "mods/polymania-extras-0.5.0-beta.1.jar"
-hash = "f84cffbab0c83297b32647bd98945231b625c6c797166d3afb92931cdd4628d3"
+file = "mods/polymania-extras-0.5.0.jar"
+hash = "3bee039f931dfa65246c4b10a63d0c7637ffeee84a960a4ffe7a21bd4182fc36"
 
 [[files]]
 file = "mods/polymer-patch-bundle.pw.toml"
-hash = "0b801ea54802779552dd80aa00a46dd1919d7e3c1f7af1761250291ffb60de03"
+hash = "ee17597332aa07e26e8906af1d000ba8e1fcf3be09379e423c5f037ac2dd62b2"
 metafile = true
 
 [[files]]
@@ -486,11 +496,6 @@ hash = "4d8fe3d3178db469aecfa86cb60cf62cf34f855f359e0a41acb79415d1f9cb73"
 metafile = true
 
 [[files]]
-file = "mods/televator.pw.toml"
-hash = "2a601a6ae6bfba9adad265a592345dfedc3cfcbf7ddb8de97853a4ea5019db51"
-metafile = true
-
-[[files]]
 file = "mods/terrablender.pw.toml"
 hash = "0a23c4dc38750ceaf33aaa260570f901495a2a740408fcaaaf444254185d3746"
 metafile = true
@@ -507,7 +512,7 @@ metafile = true
 
 [[files]]
 file = "mods/toms-mobs.pw.toml"
-hash = "c9f4623037c36f092211aee7cfa2dcb143656271d48b63e05681db17ddc4a1e5"
+hash = "8f116519f0439e33a59196a2257c3f0eae9a1045b3c707878c1db4f5c15b3e99"
 metafile = true
 
 [[files]]
@@ -593,27 +598,27 @@ hash = "a9f030960fe6fffc097f4eca5486e5ef73090a4fbc55259e2839b38b0c9f6679"
 
 [[files]]
 file = "polymer/override_assets/assets/minecraft/textures/gui/title/background/panorama_0.png"
-hash = "90a48944d15b55a10cb430e267de4ebd94dd1191b812c40bccb0b35f81089328"
+hash = "5cd1f8353b6f5d8e0cf18e2e3e6786c0bbf71439c80dabe0e589106ab19cabc8"
 
 [[files]]
 file = "polymer/override_assets/assets/minecraft/textures/gui/title/background/panorama_1.png"
-hash = "2418796fdc2d5d7a2696360a603814a284fcba17b526ead92977a68e16f1602a"
+hash = "633a921251284ce2e5ebf0e6ff78e6310a5a9ca8245adc1523aea21db11d3480"
 
 [[files]]
 file = "polymer/override_assets/assets/minecraft/textures/gui/title/background/panorama_2.png"
-hash = "ec39c84508fea2d0b2bc4b16f727f71fe64d8a583c950bf1f7746f295c2a9644"
+hash = "57b62b2444f8c88f3edf1464dc80f219a53592147b22e816ba2ba1ab3bb40982"
 
 [[files]]
 file = "polymer/override_assets/assets/minecraft/textures/gui/title/background/panorama_3.png"
-hash = "f27540bf116af826877406f8f840ebb13391d1ff6c0ac5feb7367852764a4155"
+hash = "e8eeac4587b0491022f3a92774d89fa4caa64847c8fd728a70811b4c59081b3e"
 
 [[files]]
 file = "polymer/override_assets/assets/minecraft/textures/gui/title/background/panorama_4.png"
-hash = "eedd7139d654f47dc33ed876164b18a65965b94c844dbf9a0e61135b35671143"
+hash = "35395bee306a98d83c0b734d72da09d38bd9208872ac152fe942dcefbef85ddd"
 
 [[files]]
 file = "polymer/override_assets/assets/minecraft/textures/gui/title/background/panorama_5.png"
-hash = "8b4caa57411c490083fed7cb8b520ac730951811f4c62884c808251841aa4ce8"
+hash = "2ead228283d39fc8b77bf215213ffb300cc14293726f47fc5b94912d196d15d2"
 
 [[files]]
 file = "polymer/override_assets/assets/minecraft/textures/gui/title/edition.png"
@@ -646,34 +651,6 @@ hash = "dca3688ee051721f9c069773385477aa37d36f853832f50e964476a8c2627894"
 [[files]]
 file = "polymer/override_assets/assets/polymania/lang/en_us.json"
 hash = "b96da19d0d146667fed42d0c669d441a6f22dea674c5e309b2a6a6a76e004c39"
-
-[[files]]
-file = "polymer/override_assets/assets/polymania/textures/block/televator_side.png"
-hash = "179456635cfcf6f00e63695fea73b018755f6325932e272c4b3eddd21f92211a"
-
-[[files]]
-file = "polymer/override_assets/assets/polymania/textures/block/televator_side.png.mcmeta"
-hash = "d1b0b81228dbf15932f8feb85ebad776e8d9c2e6e39f44f52a46bd87b65879ee"
-
-[[files]]
-file = "polymer/override_assets/assets/polymania/textures/block/televator_side_inner_old.png"
-hash = "b58697215e034584b3d0b93db336e5083893f9f128370ce83f79ae29a2b03b88"
-
-[[files]]
-file = "polymer/override_assets/assets/polymania/textures/block/televator_top.png"
-hash = "0726ec77fdb777a02345a7fa3d21bc655fa5fa47b5a35f0996540dda9d9d8d91"
-
-[[files]]
-file = "polymer/override_assets/assets/polymania/textures/block/televator_top.png.mcmeta"
-hash = "d1b0b81228dbf15932f8feb85ebad776e8d9c2e6e39f44f52a46bd87b65879ee"
-
-[[files]]
-file = "polymer/override_assets/assets/polymania/textures/block/televator_top_inner_old.png"
-hash = "d07ebae606812276837ef8b86f60fec14548c664f5396ac60717e8199633b702"
-
-[[files]]
-file = "polymer/override_assets/assets/polymania/textures/block/televator_top_old.png"
-hash = "c43fe3400adb0b525ef96edce1a9c0aa37a7f990b57b9fe9deaa85842a99cab9"
 
 [[files]]
 file = "polymer/override_assets/assets/polymania/textures/emoji/1f004.png"
@@ -6252,10 +6229,6 @@ file = "polymer/override_assets/assets/polymania/textures/icons/icon.png"
 hash = "e3d4d5fd79a9edc973f09538d880f0d02bbc328d48f617b624f86eccaf7734d4"
 
 [[files]]
-file = "polymer/override_assets/assets/televator/models/block/televator.json"
-hash = "1404ceab130e330e5d84e431d423d46b06e393c934f3ba7581614d1f6e0d41d2"
-
-[[files]]
 file = "polymer/override_assets/assets/traverse/models/block/brown_autumnal_leaves.json"
 hash = "8c0fcc49f1be4c3fd8095def330a9c01caed818a9949cb7a577b13ee13316d1c"
 
@@ -6316,12 +6289,12 @@ file = "resources/common/required/polymania/data/minecraft/recipe/activator_rail
 hash = "663d6ff8d178aa05a07d6086feeaca02bd79281dacb257dcb614201e3f7df9fc"
 
 [[files]]
-file = "resources/common/required/polymania/data/minecraft/recipe/chain.json"
-hash = "df176b7e89bd9b4e30e07634936a57b633167cb4bac47532538abe9b2628dea1"
-
-[[files]]
 file = "resources/common/required/polymania/data/minecraft/recipe/detector_rail.json"
 hash = "3199fa6a0aab8d837ee3565394ab38cb63eb027d65029b45a5e5a6a3ac7677a3"
+
+[[files]]
+file = "resources/common/required/polymania/data/minecraft/recipe/iron_chain.json"
+hash = "becd952dd9de3d2f3d20591042f765c68617fc2c59f6eefb1517087947239e80"
 
 [[files]]
 file = "resources/common/required/polymania/data/minecraft/recipe/powered_rail.json"
@@ -6486,10 +6459,6 @@ hash = "c06a8d4ed24cb0ef378e4933636a93399b3e4b0445bb7c71d36f86d0a5c116c7"
 [[files]]
 file = "resources/common/required/polymania/data/rocks/worldgen/placed_feature/warped_stick.json"
 hash = "0255c9650790a450dca8b7436b994d09c99f9589274607b5d92debf1be2d559a"
-
-[[files]]
-file = "resources/common/required/polymania/data/televator/recipe/televator.json"
-hash = "66f7ca459f5576dad2382979eec67740b2a8736c68deca473010e2ee6d4f5584"
 
 [[files]]
 file = "resources/common/required/polymania/pack.mcmeta"

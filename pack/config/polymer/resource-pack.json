@@ -1,7 +1,8 @@
 {
   "markResourcePackAsRequiredByDefault": true,
   "include_mod_assets": [
-	"mr_banner_text"
+	"mr_banner_text",
+	"mr_butterbee"
   ],
   "include_zips": [
     "world/resources.zip",
