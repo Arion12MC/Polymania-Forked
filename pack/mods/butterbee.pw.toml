@@ -1,13 +1,13 @@
 name = "ButterBee - CliffTree Mob Variants"
-filename = "butterbee-1.0.3.jar"
+filename = "butterbee-1.0.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/91Xzenxx/versions/sR9Pij6h/butterbee-1.0.3.jar"
+url = "https://cdn.modrinth.com/data/91Xzenxx/versions/LKghImUY/butterbee-1.0.4.jar"
 hash-format = "sha512"
-hash = "904336cf2371f891f0826a453f3e13462bc7921fb0fa3ef9b7ce2326b4903dab228094d93f2e8d5bae613ede8b61613f521402e85d19babf8c587674d51fb3c6"
+hash = "4b7beab2940a207d0ea09ba927bdf427d6a3632c686252db221e77611efaf3710bbddfca025b60e2888b84320276ccde34508673be4275dab1ada6a5988f17f3"
 
 [update]
 [update.modrinth]
 mod-id = "91Xzenxx"
-version = "sR9Pij6h"
+version = "LKghImUY"

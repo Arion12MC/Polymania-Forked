@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "e381fce5cb1a508177deff252baaadda17429f962f83b0fce94f9c9e07c6390c"
+hash = "b0ba1934ef61c45149bf46eb065b0c48584b5498d02c8eb09e00f2b89964da3e"
 
 [[files]]
 file = "config/cinderscapes.json"
@@ -33,6 +33,10 @@ file = "config/friendsandfoes.json"
 hash = "f8f6b1151d6575b6e2bb39539cde1c56063d143fa0e6d25c8c6a3674f02373eb"
 
 [[files]]
+file = "config/fsit.yml"
+hash = "0e846fc1f9f84cda66e32121e99fae2bb246e1b2b5ce192a6636b6d907f7642d"
+
+[[files]]
 file = "config/mini-vfx.json"
 hash = "f6fcddc2792595f58afca903b57919e46f1798348e6bfa5907eb67f2297426d6"
 
@@ -54,7 +58,7 @@ hash = "4260e305f03f59f16d59ebd2fca78d255ad2e5aa0a63c8d61ff17b6104d2e7df"
 
 [[files]]
 file = "config/polymer/resource-pack.json"
-hash = "b06c8ed637bcf8f8476585ae59499eb186d42e2dd11bc956343936b5b881326b"
+hash = "990aed2268e1d346ab61cf9a2c0e8da412ae98b0aa76a3f063c2ba014dbc272d"
 
 [[files]]
 file = "config/polymer/server.json"
@@ -123,7 +127,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "240ecedc7fb969d0206e9de97a62125e6efb0bc388fab3d83c4d2774f610c353"
+hash = "1502d3ac2c2ce4d3dc4c2db6ca6e95fb2a5d4a279e6e1413f6c427be222887a0"
 metafile = true
 
 [[files]]
@@ -148,7 +152,7 @@ metafile = true
 
 [[files]]
 file = "mods/banner-text.pw.toml"
-hash = "4520322e2dfe05a4fc20bab367c245333490926e33023bb905b0e493fc4618ff"
+hash = "0ec3088b8056fe2f2d01b42e20488972b58388ecebb6d6d212979e9a69eb0652"
 metafile = true
 
 [[files]]
@@ -182,7 +186,7 @@ metafile = true
 
 [[files]]
 file = "mods/butterbee.pw.toml"
-hash = "4b9b184246416109e9eef118a201e8763ef276488ff80e7558e94c36f7ea12de"
+hash = "b8b80921a6494741de8c48586cea4bc784a0703d03b8bbab48240ddeb79ffa89"
 metafile = true
 
 [[files]]
@@ -200,12 +204,12 @@ metafile = true
 
 [[files]]
 file = "mods/cinderscapes.pw.toml"
-hash = "d53961863c42f9d242571bfb863cf3c609d70ffb60eeb2c6845dca67875fc608"
+hash = "79aaeaf2998335e5a4a99fb5feb30d416e631a7313259c7ed081f7c087886930"
 metafile = true
 
 [[files]]
 file = "mods/clifftree.pw.toml"
-hash = "5d2f621dc8d32709135639f40ac1ff8ea741ed92f12fd629f953469688b13b48"
+hash = "deb277f8113bba7169dbbd355026be11f9963f4eb19db162e4418e3392b722a3"
 metafile = true
 
 [[files]]
@@ -274,7 +278,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight-refabricated.pw.toml"
-hash = "9c355e449284b00c87453f892d1a3068fc1655940aec93eb9e46ec6ed4af0a0d"
+hash = "16475920a19745939858440691992a38e7244c712d5e607695f6dca394622c40"
 metafile = true
 
 [[files]]
@@ -294,17 +298,17 @@ metafile = true
 
 [[files]]
 file = "mods/friends-and-foes-polymer.pw.toml"
-hash = "f24ca909c871b982b747eb7bac7d0f2a38e16f76add465ca8417975afd0473e5"
+hash = "ee242f9bc109934b0efeac8b9d345c6fad72278eea70f788d8fb4976d362841c"
 metafile = true
 
 [[files]]
 file = "mods/friends-and-foes.pw.toml"
-hash = "314bf216fbc6f769a543e972d325dcbc59b20e04086bbb5e6b6be10aec320fcb"
+hash = "f31424a48c62f118a0d7c664ef09cd922d93f85ebd6b052c41551c59c29851f1"
 metafile = true
 
 [[files]]
 file = "mods/fsit.pw.toml"
-hash = "df3aec55d52e03b56fb0810a6e6e9e67c2600b0d65eb6b8bce51da8e5860bf41"
+hash = "7b78d6d141103a8a1036f831d0adec4e9fd73568c3657d211b6097c7653908f3"
 metafile = true
 
 [[files]]
@@ -324,7 +328,7 @@ metafile = true
 
 [[files]]
 file = "mods/kleeslabs.pw.toml"
-hash = "b59fa8f7c470666c01c84844a7a1885c87bb2ccc716af0853a163251ec635f42"
+hash = "4f7528154c04ab7d5afe73a50bd4bcb9edc8b0641f1c209d0d4ecbffc6ca03a1"
 metafile = true
 
 [[files]]
@@ -335,6 +339,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "84957275e9dc6f07f4244ce3303536e3d73b0e72eb1696ccd024168a52c29c98"
+metafile = true
+
+[[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "c19bfef89f45a7dc94aee5889be3592eff319731d35ed427c6c7de441a30674d"
 metafile = true
 
 [[files]]
@@ -354,7 +363,7 @@ metafile = true
 
 [[files]]
 file = "mods/midnightlib.pw.toml"
-hash = "2b5ed111985f5984dd530c165da227acdefe74f0578b16da05525ef221306284"
+hash = "ddd19ab2ce692e579c4bd050ac8b2796c97e281bfdb72da32d4e2afc814a4a06"
 metafile = true
 
 [[files]]
@@ -369,7 +378,7 @@ metafile = true
 
 [[files]]
 file = "mods/open-sesame.pw.toml"
-hash = "67c13c3fe4ebfd1fc0113b0773a598549534e771c47d063fbf77814b2608d261"
+hash = "bb1066d2763827f7928e4a691a9236db30ed6248affe1727cb8e3fbea7f4f74d"
 metafile = true
 
 [[files]]
@@ -409,12 +418,12 @@ metafile = true
 
 [[files]]
 file = "mods/polyfactory.pw.toml"
-hash = "7801183ea8f9c884ed9de4e97512b63af291547363cc7ff4673bfb13cef40c8f"
+hash = "c86203d45a0dde20d057b377a37f6c42b5c46c88d58eb803c12c534d2b4713c3"
 metafile = true
 
 [[files]]
-file = "mods/polymania-extras-0.5.0.jar"
-hash = "3bee039f931dfa65246c4b10a63d0c7637ffeee84a960a4ffe7a21bd4182fc36"
+file = "mods/polymania-extras-0.5.1.jar"
+hash = "b0ddfcfba2f68584faf528435c0bb5a725bc9c012baaab51efe8e300ab507fff"
 
 [[files]]
 file = "mods/polymer-patch-bundle.pw.toml"
@@ -502,7 +511,7 @@ metafile = true
 
 [[files]]
 file = "mods/terrestria.pw.toml"
-hash = "26f112d6ef7fa90d87895feb647ba2823689b527f3baf3e44c604fbf736e9d20"
+hash = "bd8e824ce30c3f1eb1ade1ebccf2eb1ab481e0efb776a718fa4289e57c4c978a"
 metafile = true
 
 [[files]]
@@ -531,13 +540,23 @@ hash = "60d4c3ecd43e6fd918ddb9e76ef68d05573396f49cdef84b96346f8257d64275"
 metafile = true
 
 [[files]]
+file = "mods/viafabric.pw.toml"
+hash = "374870dd826159f90ff83027ff7373b9283d5facb00cb1562d70ddd1b38018c0"
+metafile = true
+
+[[files]]
+file = "mods/viaversion.pw.toml"
+hash = "56e401a0e456a497c43f68bf61034b2bbfd761cc41d9d0e176d59a9ccea1334e"
+metafile = true
+
+[[files]]
 file = "mods/woodsandmires.pw.toml"
-hash = "3cdda185a5d0fdf0d7cfd2ab4a4fee6e54a17f16927f616eccff54578211cd40"
+hash = "27078410b77f8550097a311d24b7b176f10491f9e6cb2d68a511d14344676054"
 metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "ba5c853edf08616b73d187283791d95475547be766323b64a070a0bf897d596b"
+hash = "e71ac6769675de1d2338a13e116f2aefcc8965ab0bc18b75a53572531c1447dd"
 metafile = true
 
 [[files]]
@@ -565,20 +584,16 @@ file = "polymer/override_assets/assets/cinderscapes/models/block/ash_height2.jso
 hash = "a942211bfcd3a1e6d5063d3b1a57196ace56cf481bed474031576641bcbc629d"
 
 [[files]]
+file = "polymer/override_assets/assets/minecraft/atlases/items.json"
+hash = "09d3cab841677ddeee7f34114565cc670acd25bf8c1b90c1066a627bcd916b14"
+
+[[files]]
 file = "polymer/override_assets/assets/minecraft/models/block/moss_carpet.json"
 hash = "99232fb8021553ad54828b43160c82d6b946810926b0a414874d0d325fce7052"
 
 [[files]]
 file = "polymer/override_assets/assets/minecraft/models/item/moss_carpet.json"
 hash = "27ce62663f17b05307d1413d9411566d0019b2733233aff87f6a0bd51a7e3473"
-
-[[files]]
-file = "polymer/override_assets/assets/minecraft/shaders/core/old.lightmap.fsh"
-hash = "25cd259ecacd8d07d44541daf14c2713d28886dad760ab9597c70bf343c45e1b"
-
-[[files]]
-file = "polymer/override_assets/assets/minecraft/textures/block/chain.png"
-hash = "78475cbbd50ec904c8bcbe532df232f2279433dea4436c3a0bf079d67de41691"
 
 [[files]]
 file = "polymer/override_assets/assets/minecraft/textures/block/moss_side_overlay.png"

@@ -1,3 +1,28 @@
+# 0.5.1:
+- Added ViaVersion and ViaFabric:
+  - Allows you to play with 1.21.11 client on server running this modpack.
+  - Will be removed when pack updates to 1.21.11.
+- Disabled click-to-sit functionality of FSit mod:
+  - Double sneaking when looking down will still work as before.
+- Updated Cliff under a Tree (CliffTree) (3.0.2 -> 3.1.2-1.21.9): https://modrinth.com/datapack/clifftree/version/3.1.0
+- Updated ButterBee - CliffTree Mob Variants (1.0.3 -> 1.0.4)
+- Updated Cinderscapes (5.5.0 -> 5.5.1)
+- Updated Farmer's Delight Refabricated (1.21.10-3.4.1+refabricated -> 1.21.10-3.4.2+refabricated)
+- Updated Friends&Foes (Fabric/Quilt) (4.0.15+mc1.21.10 -> 4.0.17+mc1.21.10)
+- Updated Terrestria (7.5.0 -> 7.5.1)
+- Updated PolyFactory (0.9.1+1.21.10 -> 0.9.2+1.21.10)
+- Updated Banner Text (1.4.0 -> 1.4.1)
+- Updated FSit (2.8.2+mc1.21.9 -> 2.8.3+mc1.21.9)
+- Updated Open Sesame (1.21.6-1.0.3 -> 1.21.6-1.0.4)
+- Updated KleeSlabs (1.21.10-21.10.1 -> 1.21.10-21.10.2)
+- Updated Polymer Patch for Friends&Foes (4.0.15-0+1.21.10 -> 4.0.17-0+1.21.10)
+- Updated Architectury API (18.0.6-fabric -> 18.0.8-fabric)
+- Updated YetAnotherConfigLib (YACL) (3-3.8.0+1.21.9-fabric -> 3-3.8.1+1.21.10-fabric)
+- Updated MidnightLib (1.9.1+1.21.10 -> 1.9.2+1.21.10)
+- Updated Woods and Mires (2.1.1+1.21.9 -> 2.1.2+1.21.10):
+  - This should fix missing recipes for Pine-wood based blocks.
+- Added Lithostitched (new dependency of CliffTree)
+
 # 0.5.0:
 - Added Curiosities: https://modrinth.com/mod/pbcuriosities
   - This mod adds bits and bops that I didn't think were worth into making separate mods.
