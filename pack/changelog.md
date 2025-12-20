@@ -1,3 +1,6 @@
+# 0.5.2:
+- Fix Lithostitched not being installed in case of client install.
+
 # 0.5.1:
 - Added ViaVersion and ViaFabric:
   - Allows you to play with 1.21.11 client on server running this modpack.
