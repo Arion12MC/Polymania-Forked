@@ -2,12 +2,13 @@
   "markResourcePackAsRequiredByDefault": true,
   "include_mod_assets": [
 	"mr_banner_text",
-	"butterbee"
+	"butterbee",
+	"mr_dungeons_andtaverns"
   ],
   "include_zips": [
     "world/resources.zip",
-    "polymer/extra/Unsanded-1.1.1-custom.zip",
-    "resources/common/required/DarkPaintings.zip"
+    "polymer/extra/*.zip",
+    "resources/common/required/*.zip"
   ],
   "prevent_path_with": [
 	"assets/cinderscapes/sounds/music/",

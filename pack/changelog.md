@@ -1,3 +1,78 @@
+# 0.6.0-beta.1:
+- Updated to Minecraft 1.21.11.
+- Updated Enderscape (1.1.3+mc1.21.10 -> 2.0.0+mc1.21.11): https://modrinth.com/mod/enderscape/changelog
+- Updated Toms Mobs (2.4.4+1.21.9 -> 3.0.0+1.21.11): https://modrinth.com/mod/toms-mobs/changelog
+- Updated Cliff under a Tree (CliffTree) (3.1.2-1.21.9 -> 3.1.4-1.21.11): https://modrinth.com/mod/clifftree/changelog
+- Updated CC: Tweaked (1.21.10-fabric-1.116.2-52b127f... -> 1.21.11-fabric-1.117.0-23985ef...):
+  - Still uses a dev build, but it got updated to latest one.
+  - See 1.117.0 update: https://github.com/cc-tweaked/CC-Tweaked/releases/tag/v1.21.1-1.117.0
+- Updated PolyFactory (0.9.2+1.21.10 -> 0.10.2+1.21.11): https://modrinth.com/mod/polyfactory/changelog
+- Updated PolyDecorations (0.9.2+1.21.10 -> 0.10.2+1.21.11): https://modrinth.com/mod/polydecorations/changelog
+- Updated Dungeons and Taverns (5.0.4 -> 5.1.0): https://modrinth.com/datapack/dungeons-and-taverns/changelog
+- Updated Nightosphere (2.1 -> 3.0): https://modrinth.com/datapack/nightosphere/changelog
+- Updated Armor Stand Editor (2.10.0+1.21.9-pre4 -> 2.11.1+1.21.11)
+- Updated FarmTweaks (1.7 -> 1.8)
+- Updated Gone Fishing! (1.9.0+1.21.9-rc1 -> 1.10.1+1.21.11)
+- Updated Patbox's Brewery (0.13.0+1.21.9-rc1 -> 0.14.0+1.21.11-rc2)
+- Updated Glide Away! (1.7.0+1.21.9-rc1 -> 1.8.0+1.21.11)
+- Updated Curiosities! (1.0.1+1.21.10 -> 1.1.0+1.21.11)
+- Updated Cinderscapes (5.5.1 -> 5.6.0)
+- Updated Banner Text (1.4.0 -> 1.4.1)
+- Updated TerraBlender (1.21.10-21.10.0.0 -> 1.21.11-21.11.0.0)
+- Updated Simple Update Checker (1.3.0+1.21.9-rc1 -> 1.4.0+1.21.11)
+- Updated Micro Fighters (1.0.6+1.21.9 -> 1.1.0+1.21.11)
+- Updated This Rocks! (1.9.4+1.21.10 -> 1.9.4+1.21.11)
+- Updated Trinkets (Polymer Port) (3.11.0-beta.1+polymerport.3 -> 3.11.0-beta.1+polymerport.4)
+- Updated Illager Expansion Recrafted (1.8.2+1.21.10 -> 1.9.0+1.21.11)
+- Updated Farmer's Delight Refabricated (1.21.10-3.4.2+refabricated -> 1.21.11-3.4.3+refabricated)
+- Updated Baby Fat - Polymerized (1.0.8+1.21.9-rc1 -> 1.0.8+1.21.11)
+- Updated Extended Drawers (4.3.0-beta.2+mc.1.21.10 -> 4.3.0-beta.3+mc.1.21.11)
+- Updated Universal Graves (3.9.0+1.21.9 -> 3.10.2+1.21.11)
+- Updated Terrestria (7.5.1 -> 7.6.0-beta.2)
+- Updated Friends&Foes (Fabric/Quilt) (4.0.17+mc1.21.10 -> 4.0.18+mc1.21.11)
+- Updated PolyChess (0.1.3+1.21.6 -> 0.1.3+1.21.11)
+- Updated Simply Slingshot (0.2.1+1.21.10 -> 0.3.0+1.21.11)
+- Updated Blockus (2.14.1+1.21.10 -> 2.15.0+1.21.11)
+- Updated Woods and Mires (2.1.2+1.21.10 -> 2.1.2+1.21.11)
+- Updated SleepWarp (Updated) (2.9.0+1.21.9-rc1 -> 2.10.0+1.21.11)
+- Updated Vaulted End (1.4.0 -> 1.5.0)
+- Updated Polydex (1.7.0+1.21.9-rc1 -> 1.8.1+1.21.11)
+- Updated mini-vfx (1.0.2+1.21.9-rc1 -> 1.0.4+1.21.11)
+- Updated Clumps (1.21.10-28.0.0.1 -> 1.21.11-29.0.0.1)
+- Updated FSit (2.8.3+mc1.21.9 -> 2.8.3+mc1.21.11)
+- Updated Ouch! (1.6.0+1.21.9-rc1 -> 1.7.0+1.21.11)
+- Updated Audaki Cart Engine (Faster Minecarts) (1.21.6-4.2.1 -> 1.21.11-4.3)
+- Updated Alternate Current (1.21.9-1.9.0 -> 1.21.11-1.9.0)
+- Updated KleeSlabs (1.21.10-21.10.2 -> 1.21.11-21.11.3)
+- Updated PerPlayerWanderingTraders (1.0.2+1.21.9 -> 1.0.2+1.21.11-rc2)
+- Updated Lithium (0.20.1+mc1.21.10 -> 0.21.2+mc1.21.11)
+- Updated Styled Player List (3.9.0+1.21.9 -> 3.10.0+1.21.11)
+- Updated Leaves Us In Peace (1.10.2+MC1.21.9-1.21.10 -> 1.11.1+MC1.21.11)
+- Updated Styled Chat (2.10.0+1.21.9 -> 2.11.0+1.21.11)
+- Updated Polymer (0.14.3+1.21.10 -> 0.15.1+1.21.11)
+- Updated CC: Tweaked Polymer Patch (1.116.2.0-beta+1.21.10 -> 1.117.0.0-beta+1.21.11)
+- Updated Fabric Language Kotlin (1.13.7+kotlin.2.2.21 -> 1.13.8+kotlin.2.3.0)
+- Updated MidnightLib (1.9.2+1.21.10 -> 1.9.2+1.21.11)
+- Updated Polymer Patch for Friends&Foes (4.0.17-0+1.21.10 -> 4.0.18-0+1.21.11)
+- Updated Lithostitched (1.5.2-fabric-1.21.9 -> 1.5.7-fabric-1.21.11)
+- Updated Balm (1.21.10-21.10.8 -> 1.21.11-21.11.5)
+- Updated Resourceful Lib (1.21.9-3.9.1 -> 1.21.11-3.11.0)
+- Updated spark (1.10.152-fabric -> 1.10.156-fabric)
+- Updated YetAnotherConfigLib (YACL) (3-3.8.1+1.21.10-fabric -> 3-3.8.1+1.21.11-fabric)
+- Updated Architectury API (18.0.8-fabric -> 19.0.1-fabric)
+- Updated Cloth Config API (20.0.149-fabric -> 21.11.153-fabric)
+- Updated Polymer Patch for Extended Drawers (4.3.0-beta.2.0+1.21.10 -> 4.3.0-beta.3.0+1.21.11)
+- Updated Polymer Patch for Farmer's Delight (3.3.1.0+1.21.10 -> 3.4.2.0+1.21.11)
+- Updated Polymer Patch for Enderscape (1.1.2.0+1.21.10 -> 2.0.0.0+1.21.11)
+- Updated Forge Config API Port (21.10.1+mc1.21.10-Fabric -> 21.11.1-mc1.21.11-Fabric)
+- Updated FerriteCore (8.0.2-fabric -> 8.0.3-fabric)
+- Updated Fabric API (0.138.3+1.21.10 -> 0.141.1+1.21.11)
+- Updated Polymer Patch Bundle (1.1.3+1.21.10 -> 1.1.4+1.21.11)
+- Removed ViaVersion and ViaFabric (no longer needed).
+
+Failed to check updates for Polymer Patch for Lovely Snails: failed to get latest version: no valid versions found
+Failed to check updates for Lovely Snails: failed to get latest version: no valid versions found
+
 # 0.5.2:
 - Fix Lithostitched not being installed in case of client install.
 
@@ -10,7 +85,7 @@
 - Updated Cliff under a Tree (CliffTree) (3.0.2 -> 3.1.2-1.21.9): https://modrinth.com/datapack/clifftree/version/3.1.0
 - Updated ButterBee - CliffTree Mob Variants (1.0.3 -> 1.0.4)
 - Updated Cinderscapes (5.5.0 -> 5.5.1)
-- Updated Farmer's Delight Refabricated (1.21.10-3.4.1+refabricated -> 1.21.10-3.4.2+refabricated)
+- Updated Farmer's Delight Refabricated (1.21.10-3.4.1+refabricated -> 1.21.10-3.4.3+refabricated)
 - Updated Friends&Foes (Fabric/Quilt) (4.0.15+mc1.21.10 -> 4.0.17+mc1.21.10)
 - Updated Terrestria (7.5.0 -> 7.5.1)
 - Updated PolyFactory (0.9.1+1.21.10 -> 0.9.2+1.21.10)
