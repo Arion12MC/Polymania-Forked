@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "05a5b42e4ea5f6188b04a64d6688ea4fb214525ffa49c00fa9005c2bc582eeeb"
+hash = "13bc36d551b78a148aa3783d384ed67548470071d815fc6e0c3908b9e848537d"
 
 [[files]]
 file = "config/cinderscapes.json"
@@ -343,12 +343,12 @@ metafile = true
 
 [[files]]
 file = "mods/lovely-snails-polymer.pw.toml"
-hash = "3cc34951e4e3f2764b244b9eb33966d7f285e2cc2e3589a2eb23c73394b6f5bd"
+hash = "7388291d048f7c0e358c5202421e1c0b8ff6d808b4d65d41a073df4457367fe8"
 metafile = true
 
 [[files]]
 file = "mods/lovely_snails.pw.toml"
-hash = "23b7978f23f877fa7208bbbb1d9cd5665866b651a71782d617f7cc2c640434e6"
+hash = "a19a1676082a38ada864eae31363f15e7c40a766e2bd751e1f9a6168a57bef84"
 metafile = true
 
 [[files]]
@@ -417,8 +417,8 @@ hash = "d30cb35133090953f501860ef1ecdb335bf044e18c3d8effb5f16a13efc0f739"
 metafile = true
 
 [[files]]
-file = "mods/polymania-extras-0.5.1.jar"
-hash = "b0ddfcfba2f68584faf528435c0bb5a725bc9c012baaab51efe8e300ab507fff"
+file = "mods/polymania-extras-0.6.0-beta.1.jar"
+hash = "fa4a9188b131429e40d045213cc324349b6493946473a3d7850216a8a366855e"
 
 [[files]]
 file = "mods/polymer-patch-bundle.pw.toml"
@@ -512,7 +512,7 @@ metafile = true
 
 [[files]]
 file = "mods/toms-mobs.pw.toml"
-hash = "2c48ec9d60024829d5d589eec5a4a2dff567a05087c288386b489bb83ac3daa7"
+hash = "763997c960bbe20bf7b8364a19b7fef3f34e8b7ddf2aeceb579a31cbab32d636"
 metafile = true
 
 [[files]]
@@ -537,7 +537,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "6b2e6c4faa6fa928c5c5c582752b80401e418d4f897839b7d0338acc08e94803"
+hash = "1113d43c39a9866252a83ee50d16aa3ce6fcf749acd84d58b05ca09eba4d187b"
 metafile = true
 
 [[files]]

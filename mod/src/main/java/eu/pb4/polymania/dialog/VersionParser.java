@@ -5,17 +5,13 @@ import eu.pb4.placeholders.api.node.LiteralNode;
 import eu.pb4.placeholders.api.node.TextNode;
 import eu.pb4.placeholders.api.node.parent.ParentNode;
 import eu.pb4.placeholders.api.parsers.NodeParser;
-import net.minecraft.text.ClickEvent;
-import net.minecraft.text.Style;
-import net.minecraft.text.Text;
-import net.minecraft.util.Colors;
-import net.minecraft.util.Formatting;
-
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import net.minecraft.ChatFormatting;
+import net.minecraft.network.chat.Component;
 
 
 public record VersionParser() implements NodeParser {
@@ -44,7 +40,7 @@ public record VersionParser() implements NodeParser {
                     list.add(new LiteralNode(betweenText));
                 }
 
-                list.add(new DirectTextNode(Text.literal(link).formatted(Formatting.GRAY)));
+                list.add(new DirectTextNode(Component.literal(link).withStyle(ChatFormatting.GRAY)));
 
                 currentPos = matcher.end();
             }

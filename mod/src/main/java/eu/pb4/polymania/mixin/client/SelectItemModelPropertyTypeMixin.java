@@ -10,7 +10,7 @@ import java.util.Set;
 import net.minecraft.client.renderer.item.properties.select.SelectItemModelProperty;
 
 @Mixin(SelectItemModelProperty.Type.class)
-public class SelectPropertyTypeMixin {
+public class SelectItemModelPropertyTypeMixin {
     @Redirect(method = "validateCases", at = @At(value = "INVOKE", target = "Ljava/util/Set;size()I"))
     private static int replaceSize(Set instance, @Local Multiset multiset) {
         return multiset.size();

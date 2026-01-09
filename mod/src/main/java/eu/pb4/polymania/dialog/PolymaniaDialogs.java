@@ -4,24 +4,24 @@ import eu.pb4.placeholders.api.ParserContext;
 import eu.pb4.placeholders.api.parsers.NodeParser;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.api.metadata.Person;
-import net.minecraft.dialog.AfterAction;
-import net.minecraft.dialog.DialogActionButtonData;
-import net.minecraft.dialog.DialogButtonData;
-import net.minecraft.dialog.DialogCommonData;
-import net.minecraft.dialog.action.SimpleDialogAction;
-import net.minecraft.dialog.body.PlainMessageDialogBody;
-import net.minecraft.dialog.type.Dialog;
-import net.minecraft.dialog.type.MultiActionDialog;
-import net.minecraft.dialog.type.NoticeDialog;
-import net.minecraft.nbt.NbtCompound;
-import net.minecraft.nbt.NbtString;
-import net.minecraft.registry.entry.RegistryEntry;
-import net.minecraft.text.ClickEvent;
-import net.minecraft.text.MutableText;
-import net.minecraft.text.Style;
-import net.minecraft.text.Text;
-import net.minecraft.util.Formatting;
-import net.minecraft.util.Identifier;
+import net.minecraft.ChatFormatting;
+import net.minecraft.core.Holder;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.nbt.StringTag;
+import net.minecraft.network.chat.ClickEvent;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.MutableComponent;
+import net.minecraft.network.chat.Style;
+import net.minecraft.resources.Identifier;
+import net.minecraft.server.dialog.ActionButton;
+import net.minecraft.server.dialog.CommonButtonData;
+import net.minecraft.server.dialog.CommonDialogData;
+import net.minecraft.server.dialog.Dialog;
+import net.minecraft.server.dialog.DialogAction;
+import net.minecraft.server.dialog.MultiActionDialog;
+import net.minecraft.server.dialog.NoticeDialog;
+import net.minecraft.server.dialog.action.StaticAction;
+import net.minecraft.server.dialog.body.PlainMessage;
 import net.minecraft.util.Util;
 
 import java.io.IOException;
@@ -34,8 +34,8 @@ import java.util.stream.Stream;
 public class PolymaniaDialogs {
     private static final NodeParser PARSER = NodeParser.builder().quickText().add(new LinkParser()).add(new VersionParser()).markdown().build();
 
-    public static Dialog getModList(Optional<RegistryEntry<Dialog>> returnDialog, Optional<Identifier> rawId) {
-        var buttons = new ArrayList<DialogActionButtonData>();
+    public static Dialog getModList(Optional<Holder<Dialog>> returnDialog, Optional<Identifier> rawId) {
+        var buttons = new ArrayList<ActionButton>();
 		var mods = new ArrayList<>(FabricLoader.getInstance().getAllMods());
 
         for (var mod : mods) {
@@ -43,21 +43,21 @@ public class PolymaniaDialogs {
                 continue;
             }
 
-            var data = new NbtCompound();
+            var data = new CompoundTag();
             data.putString("prev", rawId.map(Identifier::toString).orElse(""));
             data.putString("mod", mod.getMetadata().getId());
 
-            buttons.add(new DialogActionButtonData(new DialogButtonData(Text.literal(mod.getMetadata().getName()), 150), Optional.of(new SimpleDialogAction(
-                    new ClickEvent.Custom(Identifier.of("polymania", "open/mod_page"), Optional.of(data))))));
+            buttons.add(new ActionButton(new CommonButtonData(Component.literal(mod.getMetadata().getName()), 150), Optional.of(new StaticAction(
+                    new ClickEvent.Custom(Identifier.fromNamespaceAndPath("polymania", "open/mod_page"), Optional.of(data))))));
         }
 
-        buttons.sort(Comparator.comparing(x -> x.data().label().getString().toUpperCase(Locale.ROOT)));
+        buttons.sort(Comparator.comparing(x -> x.button().label().getString().toUpperCase(Locale.ROOT)));
 
-        return new MultiActionDialog(new DialogCommonData(Text.literal("Mods"), Optional.empty(),
-                true, true, AfterAction.CLOSE, List.of(), List.of()),
+        return new MultiActionDialog(new CommonDialogData(Component.literal("Mods"), Optional.empty(),
+                true, true, DialogAction.CLOSE, List.of(), List.of()),
                 buttons,
-                Optional.of(new DialogActionButtonData(new DialogButtonData(Text.translatable("gui.back"), 200),
-                        returnDialog.map(x -> new SimpleDialogAction(new ClickEvent.ShowDialog(x))))),
+                Optional.of(new ActionButton(new CommonButtonData(Component.translatable("gui.back"), 200),
+                        returnDialog.map(x -> new StaticAction(new ClickEvent.ShowDialog(x))))),
                 2);
     }
 
@@ -65,20 +65,20 @@ public class PolymaniaDialogs {
         var mod = FabricLoader.getInstance().getModContainer(modId).orElseThrow();
         var meta = mod.getMetadata();
 
-        var text = Text.empty()
-                .append(Text.literal("-------------------------\n").formatted(Formatting.GRAY))
-                .append(Text.literal("Version: ").formatted(Formatting.GOLD))
+        var text = Component.empty()
+                .append(Component.literal("-------------------------\n").withStyle(ChatFormatting.GRAY))
+                .append(Component.literal("Version: ").withStyle(ChatFormatting.GOLD))
                 .append(meta.getVersion().getFriendlyString() + "\n")
-                .append(meta.getLicense().isEmpty() ? Text.empty() : Text.empty()
-                        .append(Text.literal("License: ").formatted(Formatting.YELLOW))
+                .append(meta.getLicense().isEmpty() ? Component.empty() : Component.empty()
+                        .append(Component.literal("License: ").withStyle(ChatFormatting.YELLOW))
                         .append(String.join(", ", meta.getLicense()))
                         .append("\n")
                 );
 
 
         if (!meta.getDescription().isEmpty()) {
-            text.append(Text.literal("-------------------------\n\n").formatted(Formatting.GRAY))
-                    .append(Text.literal(meta.getDescription() + "\n\n"));
+            text.append(Component.literal("-------------------------\n\n").withStyle(ChatFormatting.GRAY))
+                    .append(Component.literal(meta.getDescription() + "\n\n"));
         }
 
         if (!meta.getContact().asMap().isEmpty()) {
@@ -86,54 +86,54 @@ public class PolymaniaDialogs {
             map.sort(Map.Entry.comparingByKey());
 
             text
-                    .append(Text.literal("-------------------------\n").formatted(Formatting.GRAY))
-                    .append(Text.literal("Links\n").formatted(Formatting.YELLOW))
-                    .append(Text.literal("-------------------------\n").formatted(Formatting.GRAY))
+                    .append(Component.literal("-------------------------\n").withStyle(ChatFormatting.GRAY))
+                    .append(Component.literal("Links\n").withStyle(ChatFormatting.YELLOW))
+                    .append(Component.literal("-------------------------\n").withStyle(ChatFormatting.GRAY))
                     .append(map.stream().map(x -> {
                         var key = x.getKey();
                         key = x.getKey().substring(0, 1).toUpperCase(Locale.ROOT) + x.getKey().substring(1);
 
 
-                        var base = Text.empty().append(Text.literal(key + ": ").formatted(Formatting.GRAY));
+                        var base = Component.empty().append(Component.literal(key + ": ").withStyle(ChatFormatting.GRAY));
                         try {
-                            var url = Util.validateUri(x.getValue());
-                            base.append(Text.literal(x.getValue()).setStyle(Style.EMPTY.withColor(Formatting.BLUE).withUnderline(true).withClickEvent(new ClickEvent.OpenUrl(url))));
+                            var url = Util.parseAndValidateUntrustedUri(x.getValue());
+                            base.append(Component.literal(x.getValue()).setStyle(Style.EMPTY.withColor(ChatFormatting.BLUE).withUnderlined(true).withClickEvent(new ClickEvent.OpenUrl(url))));
                         } catch (Throwable e) {
-                            base.append(Text.literal(x.getValue()).setStyle(Style.EMPTY.withUnderline(true).withClickEvent(new ClickEvent.CopyToClipboard(x.getValue()))));
+                            base.append(Component.literal(x.getValue()).setStyle(Style.EMPTY.withUnderlined(true).withClickEvent(new ClickEvent.CopyToClipboard(x.getValue()))));
                         }
 
                         return base.append("\n");
-                    }).collect(Collector.of(Text::empty, MutableText::append, MutableText::append))).append("\n");
+                    }).collect(Collector.of(Component::empty, MutableComponent::append, MutableComponent::append))).append("\n");
         }
 
         if (!meta.getAuthors().isEmpty() || !meta.getContributors().isEmpty()) {
             text
-                    .append(Text.literal("-------------------------\n").formatted(Formatting.GRAY))
-                    .append(Text.literal("Credits\n").formatted(Formatting.YELLOW))
-                    .append(Text.literal("-------------------------\n").formatted(Formatting.GRAY));
+                    .append(Component.literal("-------------------------\n").withStyle(ChatFormatting.GRAY))
+                    .append(Component.literal("Credits\n").withStyle(ChatFormatting.YELLOW))
+                    .append(Component.literal("-------------------------\n").withStyle(ChatFormatting.GRAY));
 
 
             if (!meta.getAuthors().isEmpty()) {
                 text
-                        .append(Text.literal("=== Authors ===\n"))
-                        .append(Text.literal(meta.getAuthors().stream().map(Person::getName).collect(Collectors.joining("\n"))).formatted(Formatting.GRAY))
+                        .append(Component.literal("=== Authors ===\n"))
+                        .append(Component.literal(meta.getAuthors().stream().map(Person::getName).collect(Collectors.joining("\n"))).withStyle(ChatFormatting.GRAY))
                         .append("\n");
             }
             if (!meta.getContributors().isEmpty()) {
-                text.append(Text.literal("=== Contributors ===\n"))
-                        .append(Text.literal(meta.getContributors().stream().map(Person::getName).collect(Collectors.joining("\n"))).formatted(Formatting.GRAY))
+                text.append(Component.literal("=== Contributors ===\n"))
+                        .append(Component.literal(meta.getContributors().stream().map(Person::getName).collect(Collectors.joining("\n"))).withStyle(ChatFormatting.GRAY))
                 ;
             }
         }
 
 
-        return new NoticeDialog(new DialogCommonData(Text.literal(mod.getMetadata().getName()), Optional.empty(),
-                true, true, AfterAction.CLOSE, List.of(new PlainMessageDialogBody(text, 350)), List.of()),
-                new DialogActionButtonData(new DialogButtonData(Text.translatable("gui.back"), 200),
-                        previous.map(x -> new SimpleDialogAction(new ClickEvent.Custom(Identifier.of("polymania", "open/mods"), Optional.of(NbtString.of(x)))))));
+        return new NoticeDialog(new CommonDialogData(Component.literal(mod.getMetadata().getName()), Optional.empty(),
+                true, true, DialogAction.CLOSE, List.of(new PlainMessage(text, 350)), List.of()),
+                new ActionButton(new CommonButtonData(Component.translatable("gui.back"), 200),
+                        previous.map(x -> new StaticAction(new ClickEvent.Custom(Identifier.fromNamespaceAndPath("polymania", "open/mods"), Optional.of(StringTag.valueOf(x)))))));
     }
 
-    public static Dialog getChangelog(Optional<RegistryEntry<Dialog>> returnDialog) {
+    public static Dialog getChangelog(Optional<Holder<Dialog>> returnDialog) {
         String text;
         try {
             text = Files.readString(FabricLoader.getInstance().getGameDir().resolve("changelog.md"));
@@ -167,10 +167,10 @@ public class PolymaniaDialogs {
             }
 
             return Stream.of(x + "\n");
-        }).map(x -> PARSER.parseText(x, ParserContext.of())).collect(Collector.of(Text::empty, MutableText::append, MutableText::append));
+        }).map(x -> PARSER.parseText(x, ParserContext.of())).collect(Collector.of(Component::empty, MutableComponent::append, MutableComponent::append));
 
-        return new NoticeDialog(new DialogCommonData(Text.literal("Changelog"), Optional.empty(),
-                true, true, AfterAction.CLOSE, List.of(new PlainMessageDialogBody(parsed, 350)), List.of()),
-                new DialogActionButtonData(new DialogButtonData(Text.translatable("gui.back"), 200), returnDialog.map(x -> new SimpleDialogAction(new ClickEvent.ShowDialog(x)))));
+        return new NoticeDialog(new CommonDialogData(Component.literal("Changelog"), Optional.empty(),
+                true, true, DialogAction.CLOSE, List.of(new PlainMessage(parsed, 350)), List.of()),
+                new ActionButton(new CommonButtonData(Component.translatable("gui.back"), 200), returnDialog.map(x -> new StaticAction(new ClickEvent.ShowDialog(x)))));
     }
 }

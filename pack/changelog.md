@@ -1,18 +1,19 @@
 # 0.6.0-beta.1:
 - Updated to Minecraft 1.21.11.
 - Updated Enderscape (1.1.3+mc1.21.10 -> 2.0.0+mc1.21.11): https://modrinth.com/mod/enderscape/changelog
-- Updated Toms Mobs (2.4.4+1.21.9 -> 3.0.0+1.21.11): https://modrinth.com/mod/toms-mobs/changelog
+- Updated Toms Mobs (2.4.4+1.21.9 -> 3.0.1+1.21.11): https://modrinth.com/mod/toms-mobs/changelog
 - Updated Cliff under a Tree (CliffTree) (3.1.2-1.21.9 -> 3.1.4-1.21.11): https://modrinth.com/mod/clifftree/changelog
-- Updated CC: Tweaked (1.21.10-fabric-1.116.2-52b127f... -> 1.21.11-fabric-1.117.0-23985ef...):
-  - Still uses a dev build, but it got updated to latest one.
-  - See 1.117.0 update: https://github.com/cc-tweaked/CC-Tweaked/releases/tag/v1.21.1-1.117.0
 - Updated PolyFactory (0.9.2+1.21.10 -> 0.10.2+1.21.11): https://modrinth.com/mod/polyfactory/changelog
 - Updated PolyDecorations (0.9.2+1.21.10 -> 0.10.2+1.21.11): https://modrinth.com/mod/polydecorations/changelog
 - Updated Dungeons and Taverns (5.0.4 -> 5.1.0): https://modrinth.com/datapack/dungeons-and-taverns/changelog
+- Updated CC: Tweaked (1.21.10-fabric-1.116.2-52b127f... -> 1.21.11-fabric-1.117.0-23985ef...):
+  - Still uses a dev build, but it got updated to latest one.
+  - See 1.117.0 update: https://github.com/cc-tweaked/CC-Tweaked/releases/tag/v1.21.1-1.117.0
 - Updated Nightosphere (2.1 -> 3.0): https://modrinth.com/datapack/nightosphere/changelog
 - Updated Armor Stand Editor (2.10.0+1.21.9-pre4 -> 2.11.1+1.21.11)
 - Updated FarmTweaks (1.7 -> 1.8)
 - Updated Gone Fishing! (1.9.0+1.21.9-rc1 -> 1.10.1+1.21.11)
+- Updated Lovely Snails (1.2.2+1.21.10 -> 1.2.3+1.21.11)
 - Updated Patbox's Brewery (0.13.0+1.21.9-rc1 -> 0.14.0+1.21.11-rc2)
 - Updated Glide Away! (1.7.0+1.21.9-rc1 -> 1.8.0+1.21.11)
 - Updated Curiosities! (1.0.1+1.21.10 -> 1.1.0+1.21.11)
@@ -58,20 +59,18 @@
 - Updated Balm (1.21.10-21.10.8 -> 1.21.11-21.11.5)
 - Updated Resourceful Lib (1.21.9-3.9.1 -> 1.21.11-3.11.0)
 - Updated spark (1.10.152-fabric -> 1.10.156-fabric)
-- Updated YetAnotherConfigLib (YACL) (3-3.8.1+1.21.10-fabric -> 3-3.8.1+1.21.11-fabric)
+- Updated YetAnotherConfigLib (YACL) (3.8.1+1.21.10-fabric -> 3.8.2+1.21.11-fabric)
 - Updated Architectury API (18.0.8-fabric -> 19.0.1-fabric)
 - Updated Cloth Config API (20.0.149-fabric -> 21.11.153-fabric)
 - Updated Polymer Patch for Extended Drawers (4.3.0-beta.2.0+1.21.10 -> 4.3.0-beta.3.0+1.21.11)
 - Updated Polymer Patch for Farmer's Delight (3.3.1.0+1.21.10 -> 3.4.2.0+1.21.11)
 - Updated Polymer Patch for Enderscape (1.1.2.0+1.21.10 -> 2.0.0.0+1.21.11)
+- Updated Polymer Patch for Lovely Snails (1.2.2.0+1.21.10 -> 1.2.3.0+1.21.11)
 - Updated Forge Config API Port (21.10.1+mc1.21.10-Fabric -> 21.11.1-mc1.21.11-Fabric)
 - Updated FerriteCore (8.0.2-fabric -> 8.0.3-fabric)
 - Updated Fabric API (0.138.3+1.21.10 -> 0.141.1+1.21.11)
 - Updated Polymer Patch Bundle (1.1.3+1.21.10 -> 1.1.4+1.21.11)
 - Removed ViaVersion and ViaFabric (no longer needed).
-
-Failed to check updates for Polymer Patch for Lovely Snails: failed to get latest version: no valid versions found
-Failed to check updates for Lovely Snails: failed to get latest version: no valid versions found
 
 # 0.5.2:
 - Fix Lithostitched not being installed in case of client install.

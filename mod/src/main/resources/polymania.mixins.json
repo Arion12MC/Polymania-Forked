@@ -3,12 +3,12 @@
   "package": "eu.pb4.polymania.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "ServerCommonNetworkHandlerMixin"
+    "ServerCommonPacketListenerImplMixin"
   ],
   "injectors": {
     "defaultRequire": 1
   },
   "client": [
-    "client.SelectPropertyTypeMixin"
+    "client.SelectItemModelPropertyTypeMixin"
   ]
 }

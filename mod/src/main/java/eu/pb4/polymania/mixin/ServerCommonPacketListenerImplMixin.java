@@ -18,7 +18,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(ServerCommonPacketListenerImpl.class)
-public abstract class ServerCommonNetworkHandlerMixin {
+public abstract class ServerCommonPacketListenerImplMixin {
     @Shadow public abstract void send(Packet<?> packet);
 
     @Shadow @Final protected MinecraftServer server;
