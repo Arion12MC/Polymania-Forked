@@ -1,3 +1,9 @@
+# 0.6.0:
+- Added Plushables by June: https://modrinth.com/mod/plushables
+  - Server side patch is handled with Plushables-Polymerized by Drex: https://github.com/DrexHD/Plushables-Polymerized
+- Removed Restart Detector mod:
+  - People found it confusing, while it might not have been used too often.
+
 # 0.6.0-beta.1:
 - Updated to Minecraft 1.21.11.
 - Updated Enderscape (1.1.3+mc1.21.10 -> 2.0.0+mc1.21.11): https://modrinth.com/mod/enderscape/changelog

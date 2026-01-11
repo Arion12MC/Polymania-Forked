@@ -46,5 +46,7 @@
 	"borukva-food:honey_cake": "cake",
 	"borukva-food:lemon_fruit_leaves": "jungle_leaves",
 	"borukva-food:avocado_fruit_leaves": "jungle_leaves",
-	"televator:televator": "curiosities:light_blue_elevator"
+	"televator:televator": "curiosities:light_blue_elevator",
+	"restart_detector:restart_detector": "minecraft:quartz_slab",
+	"restart_detector:tps_detector": "minecraft:quartz_slab"
 }

@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "13bc36d551b78a148aa3783d384ed67548470071d815fc6e0c3908b9e848537d"
+hash = "a4ec58b6fd4ff7c1f7511bbb51f2d31c2d7e8c000c9e9eb7117756c89691582a"
 
 [[files]]
 file = "config/cinderscapes.json"
@@ -397,6 +397,16 @@ hash = "3aac9c45822ac00fdb0f2b834e0020af0c78a559681540e25af8c67bbca3cc8d"
 metafile = true
 
 [[files]]
+file = "mods/plushables-polymer.pw.toml"
+hash = "86955830131f045ec635adfaf2ca62d52b34096698cff0aabf9fb8e1713f3c40"
+metafile = true
+
+[[files]]
+file = "mods/plushables.pw.toml"
+hash = "24b04af1f454058cb6fb2c7003300e0c24f33e7c081f93faac22a8dba7a53438"
+metafile = true
+
+[[files]]
 file = "mods/polychess.pw.toml"
 hash = "d268ed52ebc9cd4f9cc2a4ea2fa31c65405871dd516063039eb1668db8a5e826"
 metafile = true
@@ -448,11 +458,6 @@ metafile = true
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "88226110e3a31bc9557178df0a1354e7bf5329f62d8b535c9ec9b7bdec85e831"
-metafile = true
-
-[[files]]
-file = "mods/restart-detector.pw.toml"
-hash = "f799ac41aecd9a589d81f8526087561ba3fa6f7837b41cef00c5b12dc7ab9720"
 metafile = true
 
 [[files]]
