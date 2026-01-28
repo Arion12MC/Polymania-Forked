@@ -1,0 +1,7 @@
+name = "banner_text_rp"
+filename = "Banner_TextRP-v1.4.0.zip"
+
+[download]
+url = "https://cdn.modrinth.com/data/zg8QRuv4/versions/SNqrLhg5/Banner_TextRP-v1.4.0.zip"
+hash-format = "sha256"
+hash = "d7e9d8e4447331c88012c24d67e1a184bee9fc829bf861404f59c1413d94d45c"

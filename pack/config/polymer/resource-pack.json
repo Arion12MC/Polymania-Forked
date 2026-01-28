@@ -1,7 +1,6 @@
 {
   "markResourcePackAsRequiredByDefault": true,
   "include_mod_assets": [
-	"mr_banner_text",
 	"butterbee",
 	"mr_dungeons_andtaverns"
   ],

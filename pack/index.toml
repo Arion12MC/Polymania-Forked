@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "a4ec58b6fd4ff7c1f7511bbb51f2d31c2d7e8c000c9e9eb7117756c89691582a"
+hash = "dabf69b4328d21138c7c7c9a9074b7d0b38e0606824347bad20063eee61afb2a"
 
 [[files]]
 file = "config/cinderscapes.json"
@@ -58,7 +58,7 @@ hash = "4260e305f03f59f16d59ebd2fca78d255ad2e5aa0a63c8d61ff17b6104d2e7df"
 
 [[files]]
 file = "config/polymer/resource-pack.json"
-hash = "400f990f429b242399497899e14bac4cf70514d650465d7f5a320f5e2f316e9f"
+hash = "16d6e4549bc77074b371ac8fe1a92bad8b8bbf0deddbb2635dfc86f7d6e44fbf"
 
 [[files]]
 file = "config/polymer/server.json"
@@ -70,7 +70,7 @@ hash = "8e0710c2a3aca9fcb1d74a0ec79a52799ee1a0744181425cc540e7bb31e5c046"
 
 [[files]]
 file = "config/registry_aliases/block.json"
-hash = "b35d881058ec1a7a8d9245c8365c84e0aa413a35a870d64cd394f2b464bc0b70"
+hash = "f71ed3228c41f75934ad0fde16e9099c21692bb6653da2db647ff4edb2f908c7"
 
 [[files]]
 file = "config/registry_aliases/block_entity_type.json"
@@ -78,7 +78,7 @@ hash = "d06b9c1ff348a05871162bd7b793ad0ad2838ffc5c9a0f767b75e272f7fdc06d"
 
 [[files]]
 file = "config/registry_aliases/item.json"
-hash = "674f0a9074bf03269397481733c4d1de33af231b8a9e2b36f830ac049224f2fd"
+hash = "3db1dfc4d8e0eea39e9460a997031e47deb2bbe41d2afe34577bed8223edc6fd"
 
 [[files]]
 file = "config/rocks.json"
@@ -147,7 +147,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "2d58b7783694c38d8264f263b9ee1f8b31c1aa9dd98866deb20719b252dc4b47"
+hash = "dad1171c186d9ca0cdf6807066bd9097b892e7176794802a25c7acfe590ab7f7"
 metafile = true
 
 [[files]]
@@ -229,12 +229,12 @@ metafile = true
 
 [[files]]
 file = "mods/enderscape-polymer.pw.toml"
-hash = "ba55ad2635b60f40462b093b9a679c0cd07f601825de175014a3b3c1922c7d32"
+hash = "296961122959c0199a78bb286fa725888f00fb314d6ffec80fa109efcad512d6"
 metafile = true
 
 [[files]]
 file = "mods/enderscape.pw.toml"
-hash = "51a52e3bbcada07d135e7cafb404dacef24562a9a5c9195a75f3cbaf2e93619d"
+hash = "c206e1d95915ed814c49bd1b8c4c77c91638840184b97d4e7e52ca0303cf1685"
 metafile = true
 
 [[files]]
@@ -258,7 +258,7 @@ hash = "d6d8d16a584c2656c0dd70fe288e6330369567badccd7a7cdbaa57210876a52e"
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "39b4f43a271700276ff1ae632cf05f90b85f79670d955b50ced036e363a0efe9"
+hash = "8aa515b4d828d1b8f16b22c3390a29d515f2a3d7dd47e39a1256408e031e5729"
 metafile = true
 
 [[files]]
@@ -273,7 +273,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight-refabricated.pw.toml"
-hash = "cf5b0a4b5c04a3f75b0824629daba6d26fff2e5bbf5d0a8e3757b2267149e9f0"
+hash = "2d575d6a98cb73f6a55d52ed6eb6ae67da45d8ea353b5ff9b740a242bb08348b"
 metafile = true
 
 [[files]]
@@ -283,7 +283,7 @@ metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
-hash = "76a12a836d4c7f0f943a1e391dd2d7b5c4673caa497fff16593d49449376b117"
+hash = "4385a242de62d01f91894aa2b011bb53cfdcfbdd4d950def81ec78aba7be66a3"
 metafile = true
 
 [[files]]
@@ -373,7 +373,7 @@ metafile = true
 
 [[files]]
 file = "mods/open-sesame.pw.toml"
-hash = "bb1066d2763827f7928e4a691a9236db30ed6248affe1727cb8e3fbea7f4f74d"
+hash = "7dc4eab85cb911d26e8ab60501d649716c6dccf04a442f25b34f2d772731647b"
 metafile = true
 
 [[files]]
@@ -383,7 +383,7 @@ metafile = true
 
 [[files]]
 file = "mods/pbcuriosities.pw.toml"
-hash = "982d3a4c2339ac50e2d87dbff02a7f8f9b5b12e23ec3b7aed43ee25e66ed174a"
+hash = "ae4168514c391bfd491820370d9f0689e40eead210aeed641d631e86965f2ec3"
 metafile = true
 
 [[files]]
@@ -413,7 +413,7 @@ metafile = true
 
 [[files]]
 file = "mods/polydecorations.pw.toml"
-hash = "0e71aa4473cf21b0f80c6f3e8b8a90ff29be671a2d850e9f2eac9a5d18aee009"
+hash = "da22b5f2afec75f27d935b4259e2116886398af0030f67760897ba9606066dcf"
 metafile = true
 
 [[files]]
@@ -517,7 +517,7 @@ metafile = true
 
 [[files]]
 file = "mods/toms-mobs.pw.toml"
-hash = "763997c960bbe20bf7b8364a19b7fef3f34e8b7ddf2aeceb579a31cbab32d636"
+hash = "1660982faed2577314bc024bf9fd114c68172df8660ef85d0399b9217138650c"
 metafile = true
 
 [[files]]
@@ -548,6 +548,11 @@ metafile = true
 [[files]]
 file = "polymer/extra/Unsanded-1.1.1-custom.zip"
 hash = "32dbda3c997827e279276e5b8dc3a00e7936135f4fafb97f6ab515a7b6712178"
+
+[[files]]
+file = "polymer/extra/banner-text-rp.pw.toml"
+hash = "ac43c58b80edc2681b6e31cf172a4ac2db435e3c675854876ca82e9b1008af96"
+metafile = true
 
 [[files]]
 file = "polymer/override_assets/assets/blockus/items/rainbow_petal.json"
