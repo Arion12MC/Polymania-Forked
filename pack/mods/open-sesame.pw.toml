@@ -1,6 +1,6 @@
 name = "Open Sesame"
 filename = "open-sesame-1.0.5+1.21.11.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/J9p0oSxv/versions/6KtuKZ0t/open-sesame-1.0.5%2B1.21.11.jar"

@@ -1,8 +1,9 @@
 # 0.6.0:
 - Added Plushables by June: https://modrinth.com/mod/plushables
   - Server side patch is handled with Plushables-Polymerized by Drex: https://github.com/DrexHD/Plushables-Polymerized
+- Added Farmer's Delight's chopping recipes for non-vanilla wood types.
 - Updated Curiosities! (1.1.0+1.21.11 -> 1.1.1+1.21.11): https://modrinth.com/mod/pbcuriosities
-- Updated PolyDecorations (0.10.2+1.21.11 -> 0.10.3+1.21.11): https://modrinth.com/mod/polydecorations
+- Updated PolyDecorations (0.10.2+1.21.11 -> 0.10.4+1.21.11): https://modrinth.com/mod/polydecorations
 - Updated Farmer's Delight Refabricated (1.21.11-3.4.3+refabricated -> 1.21.11-3.4.6+refabricated)
 - Updated Toms Mobs (3.0.1+1.21.11 -> 3.0.2+1.21.11)
 - Updated Open Sesame (open-sesame-1.0.4+1.21.11 -> open-sesame-1.0.5+1.21.11)
@@ -10,9 +11,17 @@
 - Updated Fabric API (0.141.1+1.21.11 -> 0.141.2+1.21.11)
 - Updated Balm (1.21.11-21.11.5 -> 1.21.11-21.11.6)
 - Updated Polymer Patch for Enderscape (2.0.0.0+1.21.11 -> 2.1.0.0+1.21.11)
+- Updated Leaves Us In Peace (1.11.1+MC1.21.11 -> 1.11.2+MC1.21.11)
+- Updated Lithostitched (1.5.7-fabric-1.21.11 -> 1.5.8+beta1-fabric-1.21.11)
+- Updated Polymer (0.15.1+1.21.11 -> 0.15.2+1.21.11)
+- Updated Polymer - Quality of Life (1.0.2+1.21.9 -> 1.0.2+1.21.11)
+- Updated Text Placeholder API (2.8.1+1.21.10 -> 2.8.2+1.21.10)
+- Removed Motschen's Puddles mod:
+  - People found it more annoying than nice. Also has issues on 1.21.11
 - Removed Restart Detector mod:
   - People found it confusing, while it might not have been used too often.
 - Fixed Banner Text textures being broken.
+
 
 # 0.6.0-beta.1:
 - Updated to Minecraft 1.21.11.
