@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "9efdc446c2ba6afa0d4cd185d6eb6e30d3dc0bdda73bac001edfbb4c6a770e9a"
+hash = "dfaf4516a7eb2af84a9dfb7975da01851d06f95b54568b64cd4ac90dc38d437e"
 
 [[files]]
 file = "config/cinderscapes.json"
@@ -198,7 +198,7 @@ hash = "c220aaf78321b50d165f451453762f28056d0fd1445e383ce01bc09b6dfc90cd"
 
 [[files]]
 file = "mods/chalk.pw.toml"
-hash = "b399e16cdc71abf27b0409fbd19b9145f253d0df79079afa78fd1d4455a47fca"
+hash = "7587691207045560f616c7c4e47691f4bc3105adf4fbae911032b4f56f30e08c"
 metafile = true
 
 [[files]]
@@ -262,12 +262,12 @@ hash = "d6d8d16a584c2656c0dd70fe288e6330369567badccd7a7cdbaa57210876a52e"
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "8aa515b4d828d1b8f16b22c3390a29d515f2a3d7dd47e39a1256408e031e5729"
+hash = "45abf05e1cc90006aeb65e4e1bbe97da5a1984f547ea8028a077dae68af0ac11"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "61afd7af5c645ffd966b2bd86be944eacd1e48a8044e8f67082225d4d9989f0c"
+hash = "408151861cc1b1a4c4e9c8a3550662a2fc36d0ea96ee07b7e96c5d2a6afacf6f"
 metafile = true
 
 [[files]]
@@ -297,7 +297,7 @@ metafile = true
 
 [[files]]
 file = "mods/friends-and-foes-polymer.pw.toml"
-hash = "94186c750916e10ba7519957d46698d227db1f1c54c3c12dd289be195488e643"
+hash = "7be0bd3996939ac3259c95d34a0867b96424eaf23be79d8ef65ad33f06741f31"
 metafile = true
 
 [[files]]
@@ -337,7 +337,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "0e87ab10adb3db84b1d6d2ce8bdd7158878b56c965055056b10ad6cde2634568"
+hash = "9a74f9345a91af6a0e2c1975e1dd1d26cfcae6fb072a3a0d68fd9de110ab6327"
 metafile = true
 
 [[files]]
@@ -431,12 +431,12 @@ hash = "d30cb35133090953f501860ef1ecdb335bf044e18c3d8effb5f16a13efc0f739"
 metafile = true
 
 [[files]]
-file = "mods/polymania-extras-0.6.0.jar"
-hash = "b2e457d452110d287f9884d144c222739f810cb7ccb461f6c5b3a9bac7bf5285"
+file = "mods/polymania-extras-0.6.1.jar"
+hash = "a51e2ed37e22643935e4efce2f7643db5768355d7916ec4922cb0e2976af2ffc"
 
 [[files]]
 file = "mods/polymer-patch-bundle.pw.toml"
-hash = "d5980f00418f0b1d7084c594ca4331d618b59439ff1da984d418a630d34c6805"
+hash = "9f26362001901ef6a861a5d74ddab90e87363fc969ae72d13f98c4f5b9215cda"
 metafile = true
 
 [[files]]

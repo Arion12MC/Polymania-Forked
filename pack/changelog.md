@@ -1,3 +1,11 @@
+# 0.6.1:
+- Updated Fabric Language Kotlin (1.13.8+kotlin.2.3.0.jar -> 1.13.9+kotlin.2.3.10.jar)
+- Updated Polymer Patch Bundle (1.1.4+1.21.11.jar -> 1.1.5+1.21.11.jar)
+- Updated Fabric API (0.141.2+1.21.11.jar -> 0.141.3+1.21.11.jar)
+- Updated Lithium (0.21.2+mc1.21.11.jar -> 0.21.3+mc1.21.11.jar)
+- Updated Polymer Patch for Friends&Foes (4.0.18-0+1.21.11 -> 4.0.19-0+1.21.11)
+- Fixed crash related to Chalk mod.
+
 # 0.6.0:
 - Added Plushables by June: https://modrinth.com/mod/plushables
   - Server side patch is handled with Plushables-Polymerized by Drex: https://github.com/DrexHD/Plushables-Polymerized
