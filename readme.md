@@ -1,4 +1,19 @@
-<center>
+**_[PATBOX](https://modrinth.com/user/Patbox) IS THE ORIGINAL CREATOR_**
+> **_IT INCLUDES A LOT OF WORLDGEN MODS_**
+1. Terralith
+2. tectonic
+3. WWOO
+4. Blooming Biosphere
+5. and more
+# THIS IS A FORK 
+> CHECK OUT THE ORIGINAL IT IS REALLY COOL: [Polymania!](https://modrinth.com/modpack/polymania)
+## INFO
+- It is a Cool Polymania Fork i made for my server originally really big but i started from the beginning. Now it is a lot smaller. i think i will update it to be bigger but not sure if i will.
+### ORIGINAL DESCRIPTION
+> (I couldnt get the description copy correctly so it is uglier than original so check the real Polymania out it is on the top)
+<details>
+<summary>DESCRIPTION AND MOD INFO LICENCE ETC.</summary>
+  <center>
 
 ![Title Image](https://cdn.modrinth.com/data/gDvfyRyQ/images/54b3a884e008d5922c05eb1e6e4c0fd59f1066ce.png)
 
@@ -65,3 +80,4 @@ You can see the license of these files on provided websites.
 Polymania Extras mod (under `/mod/` in repo) is provided under [LGPLv3](https://github.com/Patbox/polymania/blob/master/mod/LICENSE)
 Included jar files might have their own licenses, either included directly in the jar or provided as a field in fabric.mod.json file.
 Other files included in modpack are provided under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+</details>
