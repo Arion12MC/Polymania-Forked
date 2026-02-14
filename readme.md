@@ -10,7 +10,7 @@
 ## INFO
 - It is a Cool Polymania Fork i made for my server originally really big but i started from the beginning. Now it is a lot smaller. i think i will update it to be bigger but not sure if i will.
 ### ORIGINAL DESCRIPTION
-> (I couldnt get the description copy correctly so it is uglier than original so check the real Polymania out it is on the top)
+> ~~(I couldnt get the description copy correctly so it is uglier than original so check the real Polymania out it is on the top)~~
 <details>
 <summary>DESCRIPTION AND MOD INFO LICENCE ETC.</summary>
   <center>
