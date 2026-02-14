@@ -1,3 +1,4 @@
+#!/bin/bash
 rm mod/build/libs/polymania-extras-*
 cd mod
 ./gradlew build

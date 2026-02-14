@@ -1,13 +1,13 @@
 name = "Polymer Patch for Friends&Foes"
-filename = "friends-and-foes-patch-4.0.17-0+1.21.10.jar"
+filename = "friends-and-foes-patch-4.0.19-0+1.21.11.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/67luhYti/versions/tBZgzMh8/friends-and-foes-patch-4.0.17-0%2B1.21.10.jar"
+url = "https://cdn.modrinth.com/data/67luhYti/versions/cMYySzHQ/friends-and-foes-patch-4.0.19-0%2B1.21.11.jar"
 hash-format = "sha512"
-hash = "fda009815088eedd573d1804311ed31b4745d3e34e6cab70154c3916c19b222b965cb4016484e6dce17b5b395f73b31c1c92e7c2e5b57dc47703654ae87bb598"
+hash = "f675102836958c792429a3dd88947c9ed31e31774576745fa70b39a03224c3c59290664b05b688912c0fbd632aacce464f0442668855ff108d0b4d627771e3fe"
 
 [update]
 [update.modrinth]
 mod-id = "67luhYti"
-version = "tBZgzMh8"
+version = "cMYySzHQ"

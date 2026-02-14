@@ -1,13 +1,13 @@
 name = "Nightosphere"
-filename = "nightosphere-2.1.jar"
+filename = "nightosphere-3.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/tdv7lfX5/versions/fvFskL3J/nightosphere-2.1.jar"
+url = "https://cdn.modrinth.com/data/tdv7lfX5/versions/P7CJtZgu/nightosphere-3.0.jar"
 hash-format = "sha512"
-hash = "c8057c18708055ce7be8d52bd5c598f339837a3e2ccc58680dcb0ac77c0ad9b17d1ac42d120aca083b7467fc9fe9b3fd6d62d8c176a06f18d0fa1fcb3326b0e1"
+hash = "4be57e9b405d9241cc69fd343e0cc90a413c70bbe314a73c63829990f97a0e0abaef1c336bb2c69b53411d4a448063eccedc511cc736cfaa7a870cdefb57236f"
 
 [update]
 [update.modrinth]
 mod-id = "tdv7lfX5"
-version = "fvFskL3J"
+version = "P7CJtZgu"

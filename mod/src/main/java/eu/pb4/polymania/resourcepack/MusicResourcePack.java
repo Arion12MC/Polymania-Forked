@@ -4,10 +4,9 @@ import com.google.common.hash.Hashing;
 import eu.pb4.polymer.autohost.api.AutoHostUtils;
 import eu.pb4.polymer.resourcepack.api.ResourcePackCreator;
 import net.fabricmc.loader.api.FabricLoader;
-import net.minecraft.text.Text;
-import net.minecraft.util.Identifier;
-import net.minecraft.util.Pair;
-
+import net.minecraft.network.chat.Component;
+import net.minecraft.resources.Identifier;
+import net.minecraft.util.Tuple;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -15,12 +14,12 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public class MusicResourcePack {
-    public static final Identifier ID = Identifier.of("polymania", "music_rp");
+    public static final Identifier ID = Identifier.fromNamespaceAndPath("polymania", "music_rp");
     public static final Path PATH = FabricLoader.getInstance().getGameDir().resolve(".tmp/music_rp.zip");
 
-    public static final List<Pair<String, List<String>>> COPY_PATHS = List.of(
-            new Pair<>("cinderscapes", List.of("assets/cinderscapes/sounds/music/")),
-            new Pair<>("enderscape", List.of("assets/enderscape/sounds/"))
+    public static final List<Tuple<String, List<String>>> COPY_PATHS = List.of(
+            new Tuple<>("cinderscapes", List.of("assets/cinderscapes/sounds/music/")),
+            new Tuple<>("enderscape", List.of("assets/enderscape/sounds/"))
     );
 
 
@@ -45,14 +44,14 @@ public class MusicResourcePack {
         }
 
         var builder = ResourcePackCreator.create();
-        builder.setPackDescription(Text.literal("Polymania Music Files"));
+        builder.setPackDescription(Component.literal("Polymania Music Files"));
         builder.creationEvent.register(b -> {
             for (var path : COPY_PATHS) {
-                var mod = FabricLoader.getInstance().getModContainer(path.getLeft());
+                var mod = FabricLoader.getInstance().getModContainer(path.getA());
                 if (mod.isEmpty()) continue;
-				b.addModToCredits(path.getLeft());
+				b.addModToCredits(path.getA());
 
-                for (var s : path.getRight()) {
+                for (var s : path.getB()) {
                     var p = mod.get().findPath(s);
                     p.ifPresent(value -> b.copyFromPath(value, s));
                 }

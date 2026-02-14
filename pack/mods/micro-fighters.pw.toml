@@ -1,13 +1,13 @@
 name = "Micro Fighters"
-filename = "microfighters-1.0.6+1.21.9.jar"
+filename = "microfighters-1.1.0+1.21.11.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/mCLvosIh/versions/c2MTJa0o/microfighters-1.0.6%2B1.21.9.jar"
-hash-format = "sha1"
-hash = "143b69e858db5dd3a66c7ef51d3eda6f144b4d34"
+url = "https://cdn.modrinth.com/data/mCLvosIh/versions/ADK50nuT/microfighters-1.1.0%2B1.21.11.jar"
+hash-format = "sha512"
+hash = "a4eeb204a8256fb02bb976280b975c270927638fd47800656fb597b904bdd48fb7779de0ed79dbfc405a0abf9229eeee7106261e9add24f93fa6d711d0cc4d9e"
 
 [update]
 [update.modrinth]
 mod-id = "mCLvosIh"
-version = "c2MTJa0o"
+version = "ADK50nuT"

@@ -1,13 +1,13 @@
 name = "Curiosities!"
-filename = "curiosities-1.0.1+1.21.10.jar"
+filename = "curiosities-1.1.1+1.21.11.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/fyJKRz1B/versions/3Rhxsnf8/curiosities-1.0.1%2B1.21.10.jar"
-hash-format = "sha512"
-hash = "bfa2bc92a9f66188c823a1b09a8b72a357fc25d2cb665a21d19e273dc63f74624f0e828c6b632367cb38b171b77ac47e0696402afe60282fc79baa7e1370e71b"
+url = "https://cdn.modrinth.com/data/fyJKRz1B/versions/u5tJd2GD/curiosities-1.1.1%2B1.21.11.jar"
+hash-format = "sha1"
+hash = "cc61cfae4baf1c37709d526d6c6a51f37c7b03bc"
 
 [update]
 [update.modrinth]
 mod-id = "fyJKRz1B"
-version = "3Rhxsnf8"
+version = "u5tJd2GD"

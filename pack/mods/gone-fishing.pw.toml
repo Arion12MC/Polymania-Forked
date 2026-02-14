@@ -1,13 +1,13 @@
 name = "Gone Fishing!"
-filename = "go-fish-1.9.0+1.21.9-rc1.jar"
+filename = "go-fish-1.10.1+1.21.11.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/EAw8Gldo/versions/svuSlVwf/go-fish-1.9.0%2B1.21.9-rc1.jar"
-hash-format = "sha1"
-hash = "5318a2ebdaa079708863d8300df0fdb1d2babf2a"
+url = "https://cdn.modrinth.com/data/EAw8Gldo/versions/mWBSIsYX/go-fish-1.10.1%2B1.21.11.jar"
+hash-format = "sha512"
+hash = "a74b46ff952302e744e8cdd95786f2aa2ed7e001b96997e0ffa9dcc25e13012511496535e5c648228cb4e566dba1048a253c9f4fe75334fc906ef738d65c2ff2"
 
 [update]
 [update.modrinth]
 mod-id = "EAw8Gldo"
-version = "svuSlVwf"
+version = "mWBSIsYX"

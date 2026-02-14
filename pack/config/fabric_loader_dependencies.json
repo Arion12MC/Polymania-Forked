@@ -86,6 +86,11 @@
 			"-depends": {
 				"minecraft": "IGNORED"
 			}
+		},
+		"lovely_snails": {
+			"-depends": {
+				"minecraft": "IGNORED"
+			}
 		}
 	}
 }
