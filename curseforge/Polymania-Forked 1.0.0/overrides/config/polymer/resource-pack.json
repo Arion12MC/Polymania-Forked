@@ -1,0 +1,20 @@
+{
+  "markResourcePackAsRequiredByDefault": true,
+  "include_mod_assets": [
+	"butterbee",
+	"mr_dungeons_andtaverns"
+  ],
+  "include_zips": [
+    "world/resources.zip",
+    "polymer/extra/*.zip",
+    "resources/common/required/*.zip"
+  ],
+  "prevent_path_with": [
+	"assets/cinderscapes/sounds/music/",
+	"assets/enderscape/sounds/",
+	"assets/cinderscapes/textures/gui/panorama/"
+  ],
+  "resource_pack_location": "polymer/resource_pack.zip",
+  "ignore_pack_version": false,
+  "log_errors": false
+}

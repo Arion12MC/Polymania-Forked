@@ -1,0 +1,8 @@
+useMapCreationHeight = true
+fixedHeight = 100
+creationHeightEntries = []
+enablePolymerSupport = true
+
+[[fixedEntries]]
+dimension = "minecraft:the_nether"
+height = 40
