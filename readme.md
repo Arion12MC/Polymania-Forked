@@ -1,3 +1,5 @@
+>The packwiz only works for Curseforge because i cant figure out how to do it for modrinth but i always will have both mrpack and zip avaibable
+
 **_[PATBOX](https://modrinth.com/user/Patbox) IS THE ORIGINAL CREATOR_**
 > **_IT INCLUDES A LOT OF WORLDGEN MODS_**
 1. Terralith
